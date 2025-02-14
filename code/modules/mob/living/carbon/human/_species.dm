@@ -1202,18 +1202,10 @@ GLOBAL_LIST_EMPTY(features_by_species)
 				return FALSE
 		user.do_attack_animation(target, atk_effect)
 
-		var/damage = rand(attacking_bodypart.unarmed_damage_low, attacking_bodypart.unarmed_damage_high)
+		var/damage = user.stats.strength - dice6(1)
 
-		var/obj/item/bodypart/affecting = target.get_bodypart(target.get_random_valid_zone(user.zone_selected))
-
-		var/miss_chance = 100//calculate the odds that a punch misses entirely. considers stamina and brute damage of the puncher. punches miss by default to prevent weird cases
-		if(attacking_bodypart.unarmed_damage_low)
-			if((target.body_position == LYING_DOWN) || HAS_TRAIT(user, TRAIT_PERFECT_ATTACKER)) //kicks never miss (provided your species deals more than 0 damage)
-				miss_chance = 0
-			else
-				miss_chance = min((attacking_bodypart.unarmed_damage_high/attacking_bodypart.unarmed_damage_low) + user.stamina.loss + (user.getBruteLoss()*0.5), 100) //old base chance for a miss + various damage. capped at 100 to prevent weirdness in prob()
-
-		if(!damage || !affecting || prob(miss_chance))//future-proofing for species that have 0 damage/weird cases where no zone is targeted
+		var/obj/item/bodypart/affecting = target.get_bodypart(user.zone_selected)
+		if(!damage || !affecting || !user.gurps.to_hit(user,target,0,"unarmed",affecting))//future-proofing for species that have 0 damage/weird cases where no zone is targeted
 			playsound(target.loc, attacking_bodypart.unarmed_miss_sound, 25, TRUE, -1)
 			target.visible_message(span_danger("[user]'s [atk_verb] misses [target]!"), \
 							span_danger("You avoid [user]'s [atk_verb]!"), span_hear("You hear a swoosh!"), COMBAT_MESSAGE_RANGE, user)
@@ -1358,10 +1350,35 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	// this way, you can't wound with a surgical tool on help intent if they have a surgery active and are lying down, so a misclick with a circular saw on the wrong limb doesn't bleed them dry (they still get hit tho)
 	if((weapon.item_flags & SURGICAL_TOOL) && !(user.istate & ISTATE_HARM) && human.body_position == LYING_DOWN && (LAZYLEN(human.surgeries) > 0))
 		modified_wound_bonus = CANT_WOUND
+	var/attacking_item = weapon
+	var/calculated_damage = weapon.force * 4
+	if(istype(user, /mob/living/carbon/human))
+		var/mob/living/carbon/human/hmn = user
+		if(hmn.gurps.to_hit(hmn,human,weapon.weapon_length,weapon.weapon_type,BODY_ZONE_CHEST))
+			if(weapon.damtype == BRUTE || weapon.damtype == STAMINA)
+				if(hmn.stats.strength > weapon.str_req)
+					calculated_damage = hmn.stats.strength
+				else
+					calculated_damage = ((dice6(weapon.force) + (hmn.stats.strength / 10)) + hmn.stats.strength / 10 + (hmn.stats.strength / 2) - 3) * user.outgoing_damage_mod
+					if(!weapon.force && !HAS_TRAIT(src, TRAIT_CUSTOM_TAP_SOUND))
+						playsound(weapon.loc, 'sound/weapons/tap.ogg', weapon.get_clamped_volume(), TRUE, -1)
+					else if(weapon.hitsound)
+						playsound(weapon.loc, weapon.hitsound, weapon.get_clamped_volume(), TRUE, extrarange = weapon.stealthy_audio ? SILENCED_SOUND_EXTRARANGE : -1, falloff_distance = 0)
+					if(calculated_damage > 30 && weapon.damtype == BRUTE)
+						var/atom/throw_target = get_edge_target_turf(human, get_dir(user, get_step_away(human, user)))
+						human.throw_at(throw_target,3,hmn.stats.strength / 5, user, 0, force = hmn.stats.strength / 3, gentle = FALSE)
+			else
+				calculated_damage = dice6(weapon.force) * user.outgoing_damage_mod
+		else
+			human.visible_message(span_danger("[user]'s [attacking_item] misses [human]!"), \
+							span_danger("You avoid [user]'s [attacking_item]!"), span_hear("You hear a swoosh!"), COMBAT_MESSAGE_RANGE, user)
+			to_chat(user, span_warning("Your [attacking_item] misses [src]!"))
+			return FALSE // miss
+	weapon = attacking_item
 
 	human.send_item_attack_message(weapon, user, hit_area, affecting)
 	human.apply_damage(
-		damage = weapon.force,
+		damage = calculated_damage,
 		damagetype = weapon.damtype,
 		def_zone = affecting,
 		blocked = armor_block,
@@ -1371,8 +1388,6 @@ GLOBAL_LIST_EMPTY(features_by_species)
 		attack_direction = get_dir(user, human),
 		attacking_item = weapon,
 	)
-
-
 
 	if(!weapon.force)
 		return FALSE //item force is zero
@@ -1439,7 +1454,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 					human.update_worn_undersuit()
 
 	/// Triggers force say events
-	if(weapon.force > 10 || weapon.force >= 5 && prob(33))
+	if(calculated_damage > 10 || calculated_damage >= 5 && prob(33))
 		human.force_say(user)
 
 	return TRUE

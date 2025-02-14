@@ -6,7 +6,7 @@
 	icon_state = "precursor_tank"
 
 	w_class = WEIGHT_CLASS_HUGE
-	force = 10
+	force = 2
 	throwforce = 13
 	throw_speed = 2
 	throw_range = 4

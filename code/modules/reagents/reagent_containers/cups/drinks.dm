@@ -63,7 +63,7 @@
 	icon_state = "golden_cup"
 	inhand_icon_state = "golden_cup"
 	w_class = WEIGHT_CLASS_BULKY
-	force = 14
+	force = 3
 	throwforce = 10
 	amount_per_transfer_from_this = 20
 	custom_materials = list(/datum/material/gold=HALF_SHEET_MATERIAL_AMOUNT)
@@ -75,7 +75,7 @@
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "silver_cup"
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 10
+	force = 2
 	throwforce = 8
 	amount_per_transfer_from_this = 15
 	custom_materials = list(/datum/material/silver=SMALL_MATERIAL_AMOUNT*8)
@@ -88,7 +88,7 @@
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "bronze_cup"
 	w_class = WEIGHT_CLASS_SMALL
-	force = 5
+	force = 1
 	throwforce = 4
 	amount_per_transfer_from_this = 10
 	custom_materials = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT * 4)

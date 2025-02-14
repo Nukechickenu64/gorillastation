@@ -6,7 +6,7 @@
 	inhand_icon_state = "mop"
 	lefthand_file = 'icons/mob/inhands/equipment/custodial_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/custodial_righthand.dmi'
-	force = 8
+	force = 2
 	throwforce = 10
 	throw_speed = 3
 	throw_range = 7
@@ -93,7 +93,7 @@
 	inhand_icon_state = "advmop"
 	lefthand_file = 'icons/mob/inhands/equipment/custodial_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/custodial_righthand.dmi'
-	force = 12
+	force = 2
 	throwforce = 14
 	throw_range = 4
 	mopspeed = 0.8 SECONDS
@@ -134,7 +134,7 @@
 /obj/item/mop/sharp //Basically a slightly worse spear.
 	desc = "A mop with a sharpened handle. Careful!"
 	name = "sharpened mop"
-	force = 10
+	force = 2
 	throwforce = 18
 	throw_speed = 4
 	demolition_mod = 0.75

@@ -14,7 +14,7 @@
 	righthand_file = 'monkestation/icons/mob/inhands/equipment/shields_righthand.dmi'
 	worn_icon = 'monkestation/icons/mob/clothing/back.dmi'
 	worn_icon_state = "wizard_mirror_shield"
-	force = 16
+	force = 3
 	slot_flags = ITEM_SLOT_BACK
 	w_class = WEIGHT_CLASS_BULKY
 	attack_verb_continuous = list("bumps", "prods")

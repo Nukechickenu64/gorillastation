@@ -13,7 +13,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	throw_speed = 3
 	throw_range = 7
-	force = 6
+	force = 2
 	base_pixel_x = -4
 	pixel_x = -4
 	custom_materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT)
@@ -114,7 +114,7 @@
 	base_pixel_x = 0
 	pixel_x = 0
 	max_syringes = 6
-	force = 4
+	force = 1
 
 /obj/item/gun/syringe/syndicate
 	name = "dart pistol"
@@ -130,7 +130,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	base_pixel_x = 0
 	pixel_x = 0
-	force = 2 //Also very weak because it's smaller
+	force = 1 //Also very weak because it's smaller
 	suppressed = TRUE //Softer fire sound
 	can_unsuppress = FALSE //Permanently silenced
 	syringes = list(new /obj/item/reagent_containers/syringe())
@@ -149,7 +149,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	base_pixel_x = 0
 	pixel_x = 0
-	force = 4
+	force = 1
 
 /obj/item/gun/syringe/dna/Initialize(mapload)
 	. = ..()
@@ -191,7 +191,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	base_pixel_x = 0
 	pixel_x = 0
-	force = 4
+	force = 1
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
 
 /obj/item/gun/syringe/blowgun/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)

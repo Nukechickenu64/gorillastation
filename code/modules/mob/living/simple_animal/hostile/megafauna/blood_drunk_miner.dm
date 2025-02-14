@@ -93,7 +93,7 @@ Difficulty: Medium
 	transform_weapon.Trigger(target = target)
 
 /obj/item/melee/cleaving_saw/miner //nerfed saw because it is very murdery
-	force = 6
+	force = 2
 	open_force = 10
 
 /obj/item/melee/cleaving_saw/miner/attack(mob/living/target, mob/living/carbon/human/user)

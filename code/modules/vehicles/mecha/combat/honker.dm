@@ -5,7 +5,7 @@
 	base_icon_state = "honker"
 	movedelay = 3
 	max_integrity = 140
-	force = 30
+	force = 20
 	armor_type = /datum/armor/mecha_honker
 	max_temperature = 25000
 	destruction_sleep_duration = 40

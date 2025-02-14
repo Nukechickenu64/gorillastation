@@ -94,7 +94,7 @@
 	icon_state = "olives"
 	garnish_state = "olives"
 	garnish_layer = GARNISH_LEFT
-	force = 3
+	force = 1
 	attack_verb_continuous = list("pokes", "jabs")
 	attack_verb_simple = list("poke", "jab")
 	sharpness = SHARP_POINTY

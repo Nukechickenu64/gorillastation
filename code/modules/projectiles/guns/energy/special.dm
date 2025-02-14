@@ -103,7 +103,7 @@
 	flags_1 = CONDUCT_1
 	attack_verb_continuous = list("attacks", "slashes", "cuts", "slices")
 	attack_verb_simple = list("attack", "slash", "cut", "slice")
-	force = 12
+	force = 2
 	sharpness = SHARP_EDGED
 	can_charge = FALSE
 	gun_flags = NOT_A_REAL_GUN
@@ -190,7 +190,7 @@
 	name = "advanced plasma cutter"
 	icon_state = "adv_plasmacutter"
 	inhand_icon_state = "adv_plasmacutter"
-	force = 15
+	force = 3
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/adv)
 
 #define AMMO_SELECT_BLUE 1

@@ -63,7 +63,7 @@
 	icon_state = "sheet-stone"
 	inhand_icon_state = "sheet-metal"
 	mats_per_unit = list(/datum/material/stone=SHEET_MATERIAL_AMOUNT)
-	force = 10
+	force = 2
 	throwforce = 15
 	resistance_flags = FIRE_PROOF
 	merge_type = /obj/item/stack/sheet/mineral/stone
@@ -110,7 +110,7 @@ GLOBAL_LIST_INIT(stone_recipes, list ( \
 	singular_name = "rough stone boulder"
 	mats_per_unit = list(/datum/material/stone = SHEET_MATERIAL_AMOUNT)
 	merge_type = /obj/item/stack/stone
-	force = 10
+	force = 2
 	throwforce = 15
 
 /obj/item/stack/stone/examine()
@@ -211,7 +211,7 @@ GLOBAL_LIST_INIT(stone_recipes, list ( \
 	desc = "Processing food before electricity was cool, because you can just do your regular cutting on the table next to this right?"
 	icon = 'monkestation/code/modules/blueshift/icons/cooking_structures.dmi'
 	icon_state = "cutting_board"
-	force = 5
+	force = 1
 	throwforce = 7 //Imagine someone just throws the entire fucking cutting board at you
 	w_class = WEIGHT_CLASS_NORMAL
 	pass_flags = PASSTABLE

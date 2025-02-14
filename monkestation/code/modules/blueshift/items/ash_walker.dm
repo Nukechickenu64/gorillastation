@@ -320,7 +320,7 @@
 	righthand_file = 'monkestation/code/modules/blueshift/icons/ashwalker_clothing_right.dmi'
 	icon_state = "macahuitl"
 
-	force = 15
+	force = 3
 	wound_bonus = 15
 	bare_wound_bonus = 10
 

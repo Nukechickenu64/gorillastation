@@ -9,7 +9,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
 	slot_flags = ITEM_SLOT_BELT
-	force = 12 //9 hit crit
+	force = 2 //9 hit crit
 	w_class = WEIGHT_CLASS_NORMAL
 	wound_bonus = 15
 
@@ -388,7 +388,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	w_class = WEIGHT_CLASS_SMALL
 	item_flags = NONE
-	force = 5
+	force = 1
 	cooldown = 2.5 SECONDS
 	force_say_chance = 80 //very high force say chance because it's funny
 	stamina_damage = 170 //monkestation edit: stam damage increased
@@ -416,7 +416,7 @@
 	icon_state = "stunbaton"
 	inhand_icon_state = "baton"
 	worn_icon_state = "baton"
-	force = 10
+	force = 2
 	wound_bonus = 0
 	attack_verb_continuous = list("beats")
 	attack_verb_simple = list("beat")
@@ -659,7 +659,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	w_class = WEIGHT_CLASS_HUGE
-	force = 3
+	force = 1
 	throwforce = 5
 	cell_hit_cost = 2000
 	throw_stun_chance = 10
@@ -722,7 +722,7 @@
 	icon = 'icons/obj/weapons/thrown.dmi'
 	icon_state = "boomerang"
 	inhand_icon_state = "boomerang"
-	force = 5
+	force = 1
 	throwforce = 5
 	throw_range = 5
 	cell_hit_cost = 2000

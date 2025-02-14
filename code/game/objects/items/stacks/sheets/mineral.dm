@@ -283,7 +283,7 @@ GLOBAL_LIST_INIT(bananium_recipes, list ( \
 	icon_state = "sheet-titanium"
 	inhand_icon_state = "sheet-titanium"
 	singular_name = "titanium sheet"
-	force = 5
+	force = 1
 	throwforce = 5
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 1
@@ -320,7 +320,7 @@ GLOBAL_LIST_INIT(titanium_recipes, list ( \
 	icon_state = "sheet-plastitanium"
 	inhand_icon_state = "sheet-plastitanium"
 	singular_name = "plastitanium sheet"
-	force = 5
+	force = 1
 	throwforce = 5
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 1

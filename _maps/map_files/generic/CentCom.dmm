@@ -16228,7 +16228,7 @@
 /obj/structure/rack,
 /obj/item/katana/cursed{
 	desc = "A gift from your benefactors.";
-	force = 20
+	force = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/centcom/syndicate_mothership/control)

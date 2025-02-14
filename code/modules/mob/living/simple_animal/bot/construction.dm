@@ -3,7 +3,7 @@
 /obj/item/bot_assembly
 	icon = 'icons/mob/silicon/aibots.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 3
+	force = 1
 	throw_speed = 2
 	throw_range = 5
 	var/created_name

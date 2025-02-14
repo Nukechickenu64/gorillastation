@@ -950,7 +950,7 @@
 	icon_state = "cursed_katana"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	force = 15
+	force = 3
 	armour_penetration = 30
 	block_chance = 30
 	block_sound = 'sound/weapons/parry.ogg'

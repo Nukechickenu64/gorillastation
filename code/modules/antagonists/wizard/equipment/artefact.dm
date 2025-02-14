@@ -14,7 +14,7 @@
 	righthand_file = 'icons/mob/inhands/64x64_righthand.dmi'
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
-	force = 15
+	force = 3
 	throwforce = 10
 	w_class = WEIGHT_CLASS_NORMAL
 	hitsound = 'sound/weapons/bladeslice.ogg'
@@ -169,7 +169,7 @@
 	throw_range = 7
 	throwforce = 15
 	damtype = BURN
-	force = 15
+	force = 3
 	hitsound = 'sound/items/welder2.ogg'
 
 	var/mob/current_owner

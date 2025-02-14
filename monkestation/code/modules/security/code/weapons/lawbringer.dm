@@ -23,7 +23,7 @@
 	righthand_file = 'monkestation/code/modules/security/icons/guns_righthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 	verb_say = "states"
-	force = 10
+	force = 2
 	ammo_type = list(/obj/item/ammo_casing/energy/lawbringer/detain, \
 	 /obj/item/ammo_casing/energy/lawbringer/execute, \
 	 /obj/item/ammo_casing/energy/lawbringer/hotshot, \

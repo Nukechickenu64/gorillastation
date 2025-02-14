@@ -11,7 +11,7 @@
 	load_sound = null
 	fire_sound = null
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/atlatl
-	force = 25
+	force = 5
 	attack_verb_continuous = list("strikes", "cracks", "beats")
 	attack_verb_simple = list("strike", "crack", "beat")
 	weapon_weight = WEAPON_MEDIUM

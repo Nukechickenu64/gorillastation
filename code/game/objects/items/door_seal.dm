@@ -8,7 +8,7 @@
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 	flags_1 = CONDUCT_1
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	force = 5
+	force = 1
 	throwforce = 5
 	throw_speed = 2
 	throw_range = 1

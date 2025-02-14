@@ -18,7 +18,7 @@
 	desc = "Some kind of book, its contents make your head hurt. The material is not known to you and it seems to shift and twist unnaturally."
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "hereticlintel"
-	force = 10
+	force = 2
 	damtype = BURN
 	worn_icon_state = "book"
 	throw_speed = 1

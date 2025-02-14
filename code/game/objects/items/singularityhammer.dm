@@ -9,7 +9,7 @@
 	worn_icon_state = "singularity_hammer"
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BACK
-	force = 5
+	force = 1
 	throwforce = 15
 	throw_range = 1
 	w_class = WEIGHT_CLASS_HUGE
@@ -87,7 +87,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/hammers_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BACK
-	force = 5
+	force = 1
 	throwforce = 15 //monkestation edit: from 30 to 15
 	throw_speed = 1 //monkestation edit
 	throw_range = 7

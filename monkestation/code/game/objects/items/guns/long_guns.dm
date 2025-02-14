@@ -11,7 +11,7 @@
 	projectile_wound_bonus = 10
 	projectile_damage_multiplier = 1.1
 	w_class = WEIGHT_CLASS_BULKY
-	force = 10
+	force = 2
 	flags_1 = CONDUCT_1
 	semi_auto = FALSE
 	internal_magazine = TRUE

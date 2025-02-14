@@ -7,7 +7,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/shields_righthand.dmi'
 	block_chance = 50
 	slot_flags = ITEM_SLOT_BACK
-	force = 10
+	force = 2
 	throwforce = 5
 	throw_speed = 2
 	throw_range = 3
@@ -239,7 +239,7 @@
 	attack_verb_continuous = list("shoves", "bashes")
 	attack_verb_simple = list("shove", "bash")
 	throw_range = 5
-	force = 3
+	force = 1
 	throwforce = 3
 	throw_speed = 3
 	breakable_by_damage = FALSE
@@ -292,7 +292,7 @@
 	worn_icon_state = "teleriot"
 	custom_materials = list(/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT * 3.6, /datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT * 3.6, /datum/material/silver = SMALL_MATERIAL_AMOUNT * 2.7, /datum/material/titanium = SMALL_MATERIAL_AMOUNT * 1.8)
 	slot_flags = null
-	force = 3
+	force = 1
 	throwforce = 3
 	throw_speed = 3
 	throw_range = 4

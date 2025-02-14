@@ -8,7 +8,7 @@ Slimecrossing Weapons
 /obj/item/melee/arm_blade/slime
 	name = "slimy boneblade"
 	desc = "What remains of the bones in your arm. Incredibly sharp, and painful for both you and your opponents."
-	force = 15
+	force = 3
 	force_string = "painful"
 
 /obj/item/melee/arm_blade/slime/attack(mob/living/L, mob/user)
@@ -23,7 +23,7 @@ Slimecrossing Weapons
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "rainbowknife"
 	inhand_icon_state = "rainbowknife"
-	force = 15
+	force = 3
 	throwforce = 15
 	damtype = BRUTE
 
@@ -97,7 +97,7 @@ Slimecrossing Weapons
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = NONE
 	antimagic_flags = NONE
-	force = 5
+	force = 1
 	max_charges = 1 //Recharging costs blood.
 	recharge_rate = 1
 	ammo_type = /obj/item/ammo_casing/magic/bloodchill

@@ -172,7 +172,7 @@
 	desc = "A spear made out of hardened light."
 	fire_sound = 'sound/weapons/fwoosh.ogg'
 	pinless = TRUE
-	force = 25
+	force = 5
 	wound_bonus = -5
 	bare_wound_bonus = 20
 	armour_penetration = 18

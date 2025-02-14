@@ -102,7 +102,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/goliath_hammer_righthand.dmi'
 	item_flags = ABSTRACT | DROPDEL
 	w_class = WEIGHT_CLASS_HUGE
-	force = 20
+	force = 4
 	throwforce = 0
 	throw_range = 0
 	throw_speed = 0

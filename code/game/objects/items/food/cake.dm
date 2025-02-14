@@ -234,7 +234,7 @@
 	name = "energy cake"
 	desc = "Just enough calories for a whole nuclear operative squad."
 	icon_state = "energycake"
-	force = 5
+	force = 1
 	hitsound = 'sound/weapons/blade1.ogg'
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -264,7 +264,7 @@
 	name = "energy cake slice"
 	desc = "For the traitor on the go."
 	icon_state = "energycakeslice"
-	force = 2
+	force = 1
 	hitsound = 'sound/weapons/blade1.ogg'
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -580,7 +580,7 @@
 		/datum/reagent/consumable/cherryjelly = 5,
 	)
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
-	force = 7
+	force = 2
 	throwforce = 7
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
 	slice_type = /obj/item/food/cakeslice/fruit
@@ -591,7 +591,7 @@
 	icon_state = "fruitcake_slice1"
 	base_icon_state = "fruitcake_slice"
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
-	force = 2
+	force = 1
 	throwforce = 2
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
 

@@ -9,7 +9,7 @@
 	load_sound = null
 	fire_sound = null
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/bow
-	force = 15
+	force = 3
 	attack_verb_continuous = list("whipped", "cracked")
 	attack_verb_simple = list("whip", "crack")
 	weapon_weight = WEAPON_HEAVY

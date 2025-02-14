@@ -19,7 +19,7 @@
 	inhand_x_dimension = 32
 	inhand_y_dimension = 32
 	w_class = WEIGHT_CLASS_SMALL
-	force = 15
+	force = 3
 	throwforce = 25
 	block_chance = 25
 	wound_bonus = -10
@@ -67,7 +67,7 @@ Striking a noncultist, however, will tear their flesh."}
 	flags_1 = CONDUCT_1
 	sharpness = SHARP_EDGED
 	w_class = WEIGHT_CLASS_BULKY
-	force = 30 // whoever balanced this got beat in the head by a bible too many times good lord
+	force = 5 // whoever balanced this got beat in the head by a bible too many times good lord
 	throwforce = 10
 	block_chance = 50 // now it's officially a cult esword
 	wound_bonus = -50
@@ -108,7 +108,7 @@ Striking a noncultist, however, will tear their flesh."}
 
 /obj/item/melee/cultblade/ghost
 	name = "eldritch sword"
-	force = 19 //can't break normal airlocks
+	force = 4 //can't break normal airlocks
 	item_flags = NEEDS_PERMIT | DROPDEL
 	flags_1 = NONE
 	block_chance = 25 //these dweebs don't get full block chance, because they're free cultists
@@ -666,7 +666,7 @@ Striking a noncultist, however, will tear their flesh."}
 	base_icon_state = "occultpoleaxe"
 	inhand_icon_state = "occultpoleaxe0"
 	w_class = WEIGHT_CLASS_HUGE
-	force = 17
+	force = 3
 	throwforce = 40
 	throw_speed = 2
 	armour_penetration = 30
@@ -949,7 +949,7 @@ Striking a noncultist, however, will tear their flesh."}
 	inhand_icon_state = "mirror_shield"
 	lefthand_file = 'icons/mob/inhands/equipment/shields_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/shields_righthand.dmi'
-	force = 5
+	force = 1
 	throwforce = 15
 	throw_speed = 1
 	throw_range = 4

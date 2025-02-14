@@ -13,7 +13,7 @@
 	max_charges = 1
 	item_flags = NEEDS_PERMIT | NOBLUDGEON
 	sharpness = SHARP_POINTY
-	force = 18
+	force = 3
 	antimagic_flags = NONE
 
 /obj/item/gun/magic/hook/shoot_with_empty_chamber(mob/living/user)

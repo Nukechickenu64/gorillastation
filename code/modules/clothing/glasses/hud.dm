@@ -203,7 +203,7 @@
 	icon_state = "gar_sec"
 	inhand_icon_state = "gar_black"
 	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
-	force = 10
+	force = 2
 	throwforce = 10
 	throw_speed = 4
 	attack_verb_continuous = list("slices")
@@ -215,7 +215,7 @@
 	name = "giga HUD gar glasses"
 	desc = "GIGA GAR glasses with a HUD."
 	icon_state = "gigagar_sec"
-	force = 12
+	force = 2
 	throwforce = 12
 
 /obj/item/clothing/glasses/hud/toggle

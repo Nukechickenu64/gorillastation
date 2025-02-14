@@ -9,7 +9,7 @@
 	icon = 'icons/obj/weapons/sword.dmi'
 	icon_state = "v8_engine"
 	w_class = WEIGHT_CLASS_HUGE
-	force = 5
+	force = 1
 	throwforce = 15
 	throw_range = 1
 	throw_speed = 1
@@ -52,7 +52,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	w_class = WEIGHT_CLASS_HUGE
 	sharpness = SHARP_EDGED
-	force = 12
+	force = 2
 	throwforce = 10
 	throw_range = 5
 	throw_speed = 1

@@ -143,7 +143,7 @@
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacks", "chops", "cleaves", "tears", "lacerates", "cuts")
 	attack_verb_simple = list("attack", "chop", "cleave", "tear", "lacerate", "cut")
-	force = 40
+	force = 7
 	throwforce = 25
 	throw_speed = 3
 	throw_range = 5
@@ -182,7 +182,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	hitsound = SFX_SWING_HIT
-	force = 3
+	force = 1
 	throwforce = 5
 	throw_speed = 3
 	throw_range = 5
@@ -224,7 +224,7 @@
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "esaw"
 	hitsound = 'sound/weapons/circsawhit.ogg'
-	force = 18
+	force = 3
 	hitcost = 75 // Costs more than a standard cyborg esword.
 	w_class = WEIGHT_CLASS_NORMAL
 	sharpness = SHARP_EDGED
@@ -319,7 +319,7 @@
 	hitsound = 'sound/weapons/blade1.ogg'
 	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
 	attack_verb_simple = list("attack", "slash", "stab", "slice", "tear", "lacerate", "rip", "dice", "cut")
-	force = 30
+	force = 5
 	throwforce = 1 // Throwing or dropping the item deletes it.
 	throw_speed = 3
 	throw_range = 1

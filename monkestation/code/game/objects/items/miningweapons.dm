@@ -11,7 +11,7 @@
 	desc = "Recent breakthroughs with proto-kinetic technology have led to improved designs for the early proto-kinetic crusher, namely the ability to pack all \
 	the same technology into a smaller more portable package. The machete design was chosen as to make a much easier to handle and less cumbersome frame. Of course \
 	the smaller package means that the power is not as high as the original crusher design, but the different shell makes it capable of blocking basic attacks."
-	force = 15
+	force = 3
 	block_chance = 25
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BELT
@@ -158,7 +158,7 @@
 	desc = "Truely the most compact version of the crusher ever made, its small enough to fit in your backpack and still function as a crusher. \
 	Best used when attacking from behind, rewarding those capable of landing what we call a 'critical hit' \
 	(DISCLAIMER) The shell is made to fit over gloves, so dont try to wear it like a glove."
-	force = 5
+	force = 1
 	w_class = WEIGHT_CLASS_NORMAL
 	throwforce = 5
 	throw_speed = 4

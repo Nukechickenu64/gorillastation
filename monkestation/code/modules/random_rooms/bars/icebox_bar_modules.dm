@@ -62,7 +62,7 @@
 	desc = "Do the aliens also lose this, and need to find an alien hatchet? \
 			Looks cheaply made."
 	icon = 'icons/obj/abductor.dmi'
-	force = 13 //this one is less good for combat
+	force = 3 //this one is less good for combat
 	wound_bonus = 10
 
 /obj/item/surgicaldrill/fake_alien

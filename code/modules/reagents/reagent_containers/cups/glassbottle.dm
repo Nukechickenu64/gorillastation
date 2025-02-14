@@ -14,7 +14,7 @@
 	custom_price = PAYCHECK_CREW * 1.1
 	amount_per_transfer_from_this = 10
 	volume = 100
-	force = 15 //Smashing bottles over someone's head hurts.
+	force = 3 //Smashing bottles over someone's head hurts.
 	throwforce = 15
 	demolition_mod = 0.25
 	inhand_icon_state = "beer" //Generic held-item sprite until unique ones are made.
@@ -148,7 +148,7 @@
 	desc = "A bottle with a sharp broken bottom."
 	icon = 'icons/obj/drinks/drink_effects.dmi'
 	icon_state = "broken_bottle"
-	force = 9
+	force = 2
 	throwforce = 5
 	throw_speed = 3
 	throw_range = 5

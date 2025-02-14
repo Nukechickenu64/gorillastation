@@ -8,7 +8,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/64x_guns_left.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/64x_guns_right.dmi'
 	w_class = WEIGHT_CLASS_BULKY
-	force = 15 //blunt edge and really heavy
+	force = 3 //blunt edge and really heavy
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/six
 	burst_size = 6
 	pb_knockback = 12

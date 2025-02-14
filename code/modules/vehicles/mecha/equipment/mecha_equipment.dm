@@ -6,7 +6,7 @@
 	name = "mecha equipment"
 	icon = 'icons/mecha/mecha_equipment.dmi'
 	icon_state = "mecha_equip"
-	force = 5
+	force = 1
 	max_integrity = 300
 	/// Determines what "slot" this attachment will try to attach to on a mech
 	var/equipment_slot = MECHA_WEAPON

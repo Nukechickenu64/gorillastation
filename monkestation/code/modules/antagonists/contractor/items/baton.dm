@@ -18,7 +18,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	w_class = WEIGHT_CLASS_SMALL
 	item_flags = NONE
-	force = 5
+	force = 1
 	cooldown = 2.5 SECONDS
 	force_say_chance = 80 //very high force say chance because it's funny
 	stamina_damage = 170

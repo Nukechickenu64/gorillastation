@@ -245,7 +245,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	hitsound = 'sound/weapons/rapierhit.ogg'
 	block_sound = 'sound/weapons/parry.ogg'
-	force = 20
+	force = 4
 	armour_penetration = 75
 	block_chance = 50
 	sharpness = SHARP_EDGED

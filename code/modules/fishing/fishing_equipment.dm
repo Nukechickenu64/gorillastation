@@ -206,7 +206,7 @@
 	name = "compact fishing toolbox"
 	desc = "Contains everything you need for your fishing trip. Except for the bait."
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 5
+	force = 1
 	throwforce = 5
 
 /obj/item/storage/toolbox/fishing/small/Initialize(mapload)

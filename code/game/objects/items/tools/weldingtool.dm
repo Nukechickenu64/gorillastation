@@ -11,7 +11,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 3
+	force = 1
 	throwforce = 5
 	hitsound = SFX_SWING_HIT
 	usesound = list('sound/items/welder.ogg', 'sound/items/welder2.ogg')
@@ -86,7 +86,7 @@
 
 /obj/item/weldingtool/process(seconds_per_tick)
 	if(welding)
-		force = 15
+		force = 3
 		damtype = BURN
 		burned_fuel_for += seconds_per_tick
 		if(burned_fuel_for >= WELDER_FUEL_BURN_INTERVAL)
@@ -95,7 +95,7 @@
 
 	//Welders left on now use up fuel, but lets not have them run out quite that fast
 	else
-		force = 3
+		force = 1
 		damtype = BRUTE
 		update_appearance()
 		if(!can_off_process)
@@ -250,7 +250,7 @@
 	if(welding)
 		if(get_fuel() >= 1)
 			playsound(loc, activation_sound, 50, TRUE)
-			force = 15
+			force = 3
 			damtype = BURN
 			hitsound = 'sound/items/welder.ogg'
 			update_appearance()
@@ -266,7 +266,7 @@
 /obj/item/weldingtool/proc/switched_off(mob/user)
 	set_welding(FALSE)
 
-	force = 3
+	force = 1
 	damtype = BRUTE
 	hitsound = SFX_SWING_HIT
 	update_appearance()

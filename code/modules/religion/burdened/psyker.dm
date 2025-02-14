@@ -127,7 +127,7 @@
 	name = "chaplain's revolver"
 	desc = "Holy smokes."
 	icon_state = "chaplain"
-	force = 10
+	force = 2
 	fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/rev77
 	obj_flags = UNIQUE_RENAME

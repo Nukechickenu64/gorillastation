@@ -5,7 +5,7 @@
 	icon_state = "rcl-0"
 	inhand_icon_state = "rcl-0"
 	opacity = FALSE
-	force = 5 //Plastic is soft
+	force = 1 //Plastic is soft
 	throwforce = 5
 	throw_speed = 1
 	throw_range = 7

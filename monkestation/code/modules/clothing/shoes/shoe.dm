@@ -88,7 +88,7 @@
 	icon_state = "heels_syndi"
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	strip_delay = 2 SECONDS
-	force = 10
+	force = 2
 	throwforce = 15
 	sharpness = SHARP_POINTY
 	attack_verb_continuous = list("attacks", "slices", "slashes", "cuts", "stabs")

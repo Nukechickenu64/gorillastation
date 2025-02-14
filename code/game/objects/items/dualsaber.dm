@@ -9,7 +9,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	name = "double-bladed energy sword"
 	desc = "Handle with care."
-	force = 3
+	force = 1
 	throwforce = 5
 	throw_speed = 3
 	throw_range = 5

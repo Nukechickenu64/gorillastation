@@ -98,6 +98,13 @@ GLOBAL_LIST_INIT(available_ui_styles, list(
 	var/atom/movable/screen/healthdoll
 	var/atom/movable/screen/spacesuit
 
+	var/atom/movable/screen/stat/strength
+	var/atom/movable/screen/stat/dexterity
+	var/atom/movable/screen/stat/intelligence
+	var/atom/movable/screen/stat/perception
+	var/atom/movable/screen/stat/health
+	var/atom/movable/screen/stat/willpower
+
 	var/list/atom/movable/screen/cybernetics/ammo_counter/cybernetics_ammo = list() //monkestation edit - CYBERNETICS
 
 	// subtypes can override this to force a specific UI style

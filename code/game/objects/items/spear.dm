@@ -6,7 +6,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/polearms_righthand.dmi'
 	name = "spear"
 	desc = "A haphazardly-constructed yet still deadly weapon of ancient design."
-	force = 10
+	force = 2
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BACK
 	throwforce = 20
@@ -76,7 +76,7 @@
 			force_wielded = 19
 			AddComponent(/datum/component/two_handed, force_unwielded=force_unwielded, force_wielded=force_wielded, icon_wielded="[icon_prefix]1")
 		if(/obj/item/shard/titanium)
-			force = 13
+			force = 3
 			throwforce = 21
 			throw_range = 8
 			throw_speed = 5
@@ -87,7 +87,7 @@
 			icon_prefix = "speartitanium"
 			AddComponent(/datum/component/two_handed, force_unwielded=force_unwielded, force_wielded=force_wielded, icon_wielded="[icon_prefix]1")
 		if(/obj/item/shard/plastitanium)
-			force = 13
+			force = 3
 			throwforce = 22
 			throw_range = 9
 			throw_speed = 5

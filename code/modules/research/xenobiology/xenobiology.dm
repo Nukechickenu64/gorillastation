@@ -1019,7 +1019,7 @@
 	icon_state = "tile_bluespace"
 	inhand_icon_state = "tile-bluespace"
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 6
+	force = 2
 	mats_per_unit = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT*5)
 	throwforce = 10
 	throw_speed = 3
@@ -1036,7 +1036,7 @@
 	icon_state = "tile_sepia"
 	inhand_icon_state = "tile-sepia"
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 6
+	force = 2
 	mats_per_unit = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT*5)
 	throwforce = 10
 	throw_speed = 0.1

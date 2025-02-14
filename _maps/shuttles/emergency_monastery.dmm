@@ -1921,7 +1921,7 @@
 	},
 /obj/item/knife/combat/bone{
 	desc = "An old bone sharpened into a blade. It's rather dull nowadays.";
-	force = 8;
+	force = 2;
 	name = "ancient bone dagger";
 	pixel_y = 6;
 	throwforce = 8

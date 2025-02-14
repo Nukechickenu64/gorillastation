@@ -320,7 +320,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	lefthand_file = 'icons/mob/inhands/items/chairs_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/chairs_righthand.dmi'
 	w_class = WEIGHT_CLASS_HUGE
-	force = 8
+	force = 2
 	throwforce = 10
 	demolition_mod = 1.25
 	throw_range = 3
@@ -542,7 +542,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	lefthand_file = 'icons/mob/inhands/items/chairs_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/chairs_righthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 7
+	force = 2
 	throw_range = 5 //Lighter Weight --> Flies Farther.
 	custom_materials = list(/datum/material/plastic =SHEET_MATERIAL_AMOUNT)
 	break_chance = 25

@@ -10,7 +10,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	flags_1 = CONDUCT_1 | IS_PLAYER_COLORABLE_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 5
+	force = 1
 	demolition_mod = 0.5
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 5
@@ -85,7 +85,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	custom_materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*1.75, /datum/material/silver=HALF_SHEET_MATERIAL_AMOUNT * 1.5, /datum/material/titanium=SHEET_MATERIAL_AMOUNT*1.25) //what research value?
-	force = 8 //might or might not be too high, subject to change
+	force = 2 //might or might not be too high, subject to change
 	throwforce = 8
 	throw_speed = 2
 	throw_range = 3//it's heavier than a screw driver/wrench, so it does more damage, but can't be thrown as far

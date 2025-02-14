@@ -10,7 +10,7 @@
 	lefthand_file = 'icons/mob/inhands/items/keys_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/keys_righthand.dmi'
 	hitsound = 'sound/items/rattling_keys_attack.ogg'
-	force = 2
+	force = 1
 	verb_say = "beeps" //it has a beeper
 	verb_ask = "questionably beeps"
 	verb_exclaim = "beeps loudly"

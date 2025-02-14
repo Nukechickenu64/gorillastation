@@ -21,7 +21,7 @@
 	name = "fork"
 	desc = "Pointy."
 	icon_state = "fork"
-	force = 4
+	force = 1
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 0
 	throw_speed = 3
@@ -108,7 +108,7 @@
 	icon_state = "rolling_pin"
 	worn_icon_state = "rolling_pin"
 	inhand_icon_state = "rolling_pin"
-	force = 8
+	force = 2
 	throwforce = 5
 	throw_speed = 3
 	throw_range = 7
@@ -125,7 +125,7 @@
 	desc = "A heavy metallic rolling pin used to bash in those annoying ingredients."
 	icon_state = "metal_rolling_pin"
 	inhand_icon_state = "metal_rolling_pin"
-	force = 12
+	force = 2
 	flags_1 = CONDUCT_1
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 1.5, /datum/material/plastic = SHEET_MATERIAL_AMOUNT * 1.5)
 	custom_price = PAYCHECK_CREW * 2
@@ -143,7 +143,7 @@
 	base_icon_state = "spoon"
 	w_class = WEIGHT_CLASS_TINY
 	flags_1 = CONDUCT_1
-	force = 2
+	force = 1
 	throw_speed = 3
 	throw_range = 5
 	attack_verb_simple = list("whack", "spoon", "tap")

@@ -88,3 +88,14 @@
 
 	/// Height of the mob
 	VAR_PROTECTED/mob_height = HUMAN_HEIGHT_MEDIUM
+
+	var/datum/stats/stats = new()
+	var/datum/skills/skills = new()
+	var/datum/gurps/gurps = new()
+
+	var/datum/base_stats/base_stats = new
+
+
+	var/show_rolls = FALSE
+
+	var/birthday

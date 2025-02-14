@@ -6,7 +6,7 @@
 	inhand_icon_state = "crutch_med"
 	lefthand_file = 'monkestation/code/modules/blood_datum/icons/melee_lefthand.dmi'
 	righthand_file = 'monkestation/code/modules/blood_datum/icons/melee_righthand.dmi'
-	force = 12
+	force = 2
 	throwforce = 8
 	w_class = WEIGHT_CLASS_BULKY
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 0.5)

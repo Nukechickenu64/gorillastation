@@ -49,7 +49,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	slot_flags = ITEM_SLOT_BELT
-	force = 2
+	force = 1
 	throwforce = 1
 	w_class = WEIGHT_CLASS_NORMAL
 	hitsound = 'sound/weapons/bladeslice.ogg'
@@ -72,7 +72,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_BACK
-	force = 40
+	force = 7
 	throwforce = 10
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
@@ -107,7 +107,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "cutlass"
 	worn_icon_state = "cutlass"
 	slot_flags = ITEM_SLOT_BACK
-	force = 30
+	force = 5
 	throwforce = 20
 	throw_speed = 3
 	throw_range = 5
@@ -278,7 +278,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_BACK
-	force = 40
+	force = 7
 	throwforce = 10
 	w_class = WEIGHT_CLASS_HUGE
 	hitsound = 'sound/weapons/bladeslice.ogg'
@@ -309,7 +309,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	icon_state = "wiredrod"
 	inhand_icon_state = "rods"
 	flags_1 = CONDUCT_1
-	force = 9
+	force = 2
 	throwforce = 10
 	w_class = WEIGHT_CLASS_BULKY
 	custom_materials = list(/datum/material/iron= HALF_SHEET_MATERIAL_AMOUNT + SMALL_MATERIAL_AMOUNT * 1.5, /datum/material/glass= SMALL_MATERIAL_AMOUNT * 0.75)
@@ -373,7 +373,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "eshield"
 	lefthand_file = 'icons/mob/inhands/equipment/shields_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/shields_righthand.dmi'
-	force = 2
+	force = 1
 	throwforce = 10 //10 + 2 (WEIGHT_CLASS_SMALL) * 4 (EMBEDDED_IMPACT_PAIN_MULTIPLIER) = 18 damage on hit due to guaranteed embedding
 	throw_speed = 4
 	embedding = list("pain_mult" = 4, "embed_chance" = 100, "fall_chance" = 0)
@@ -407,7 +407,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	desc = "A sharp, concealable, spring-loaded knife."
 	flags_1 = CONDUCT_1
-	force = 3
+	force = 1
 	w_class = WEIGHT_CLASS_SMALL
 	throwforce = 5
 	throw_speed = 3
@@ -463,7 +463,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	desc = "Should anything ever go wrong..."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "red_phone"
-	force = 3
+	force = 1
 	throwforce = 2
 	throw_speed = 3
 	throw_range = 4
@@ -487,7 +487,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "stick"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	force = 5
+	force = 1
 	throwforce = 5
 	w_class = WEIGHT_CLASS_SMALL
 	custom_materials = list(/datum/material/iron= SMALL_MATERIAL_AMOUNT * 0.5)
@@ -561,7 +561,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "staff"
 	lefthand_file = 'icons/mob/inhands/weapons/staves_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/staves_righthand.dmi'
-	force = 3
+	force = 1
 	throwforce = 5
 	throw_speed = 2
 	throw_range = 5
@@ -593,7 +593,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "stick"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	force = 3
+	force = 1
 	throwforce = 5
 	throw_speed = 2
 	throw_range = 5
@@ -623,7 +623,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	desc = "A priceless ancient marble bust, the kind that belongs in a museum." //or you can hit people with it
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = "bust"
-	force = 15
+	force = 3
 	throwforce = 10
 	throw_speed = 5
 	throw_range = 2
@@ -647,7 +647,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	desc = "For the beating to death of lizards with their own tails."
 	icon = 'icons/obj/weapons/club.dmi'
 	icon_state = "tailclub"
-	force = 14
+	force = 3
 	throwforce = 1 // why are you throwing a club do you even weapon
 	throw_speed = 1
 	throw_range = 1
@@ -673,7 +673,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "skateboard_held"
 	inhand_icon_state = "skateboard"
-	force = 12
+	force = 2
 	throwforce = 4
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("smacks", "whacks", "slams", "smashes")
@@ -722,7 +722,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "baseball_bat"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	force = 12
+	force = 2
 	wound_bonus = -10
 	throwforce = 12
 	demolition_mod = 1.25
@@ -779,9 +779,6 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		playsound(get_turf(src), 'sound/weapons/homerun.ogg', 100, TRUE)
 		homerun_ready = FALSE
 		return
-	else if(!QDELETED(target) && !target.anchored)
-		var/whack_speed = (prob(60) ? 1 : 4)
-		target.throw_at(throw_target, rand(1, 2), whack_speed, user, gentle = TRUE) // sorry friends, 7 speed batting caused wounds to absolutely delete whoever you knocked your target into (and said target)
 
 /obj/item/melee/baseball_bat/multi_attack(mob/living/target_mob, mob/living/user, params, direction_traveled)
 	// we obtain the relative direction from the bat itself to the target
@@ -800,9 +797,6 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		playsound(get_turf(src), 'sound/weapons/homerun.ogg', 100, TRUE)
 		homerun_ready = FALSE
 		return
-	else if(!QDELETED(target_mob) && !target_mob.anchored)
-		var/whack_speed = (prob(60) ? 1 : 4)
-		target_mob.throw_at(throw_target, rand(1, 2), whack_speed, user, gentle = TRUE) // sorry friends, 7 speed batting caused wounds to absolutely delete whoever you knocked your target into (and said target)
 
 /obj/item/melee/baseball_bat/Destroy(force)
 	for(var/target in thrown_datums)
@@ -878,7 +872,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	inhand_icon_state = "baseball_bat_metal"
 	custom_materials = list(/datum/material/titanium = SHEET_MATERIAL_AMOUNT * 3.5)
 	resistance_flags = NONE
-	force = 12
+	force = 2
 	throwforce = 15
 	mob_thrower = TRUE
 	block_sound = 'sound/weapons/effects/batreflect.ogg'
@@ -976,7 +970,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	name = "gohei"
 	desc = "A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's valued weeaboos."
 	resistance_flags = FLAMMABLE
-	force = 5
+	force = 1
 	throwforce = 5
 	hitsound = SFX_SWING_HIT
 	attack_verb_continuous = list("whacks", "thwacks", "wallops", "socks")
@@ -1001,7 +995,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	block_chance = 20
 	block_sound = 'sound/weapons/parry.ogg'
 	sharpness = SHARP_EDGED
-	force = 14
+	force = 3
 	throwforce = 12
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
@@ -1018,7 +1012,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	worn_icon_state = "hfrequency0"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	force = 10
+	force = 2
 	wound_bonus = 25
 	bare_wound_bonus = 50
 	throwforce = 25
@@ -1148,7 +1142,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 
 /obj/item/highfrequencyblade/wizard
 	desc = "A blade that was mastercrafted by a legendary blacksmith. Its' enchantments let it slash through anything."
-	force = 8
+	force = 2
 	throwforce = 20
 	wound_bonus = 20
 	bare_wound_bonus = 25

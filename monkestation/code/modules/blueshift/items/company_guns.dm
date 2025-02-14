@@ -822,7 +822,7 @@
 	fire_delay = 2 SECONDS
 	actions_types = list()
 
-	force = 15 // I mean if you're gonna beat someone with the thing you might as well get damage appropriate for how big the fukken thing is
+	force = 3 // I mean if you're gonna beat someone with the thing you might as well get damage appropriate for how big the fukken thing is
 
 /obj/item/gun/ballistic/automatic/wylom/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_SZOT)

@@ -302,6 +302,38 @@
 	stamina.hud = src
 	infodisplay += stamina
 
+	strength = new /atom/movable/screen/stat()
+	strength.hud = src
+	strength.char = mymob
+	strength.update_states()
+	infodisplay += strength
+
+	perception = new /atom/movable/screen/stat/perception()
+	perception.hud = src
+	perception.char = mymob
+	perception.update_states()
+	infodisplay += perception
+
+	dexterity = new /atom/movable/screen/stat/dexterity()
+	dexterity.hud = src
+	dexterity.char = mymob
+	dexterity.update_states()
+	infodisplay += dexterity
+
+	health = new /atom/movable/screen/stat/health()
+	health.hud = src
+	health.char = mymob
+	health.update_states()
+	infodisplay += health
+
+	intelligence = new /atom/movable/screen/stat/intelligence()
+	intelligence.hud = src
+	intelligence.char = mymob
+	intelligence.update_states()
+	infodisplay += intelligence
+
+//add will later
+
 	pull_icon = new /atom/movable/screen/pull()
 	pull_icon.icon = ui_style
 	pull_icon.screen_loc = ui_above_intent
@@ -460,3 +492,10 @@
 	else
 		client.screen -= hud_used.hotkeybuttons
 		hud_used.hotkey_ui_hidden = TRUE
+
+/mob/living/carbon/human/proc/update_stats()
+	hud_used.strength.update_states()
+	hud_used.perception.update_states()
+	hud_used.intelligence.update_states()
+	hud_used.dexterity.update_states()
+	hud_used.health.update_states()

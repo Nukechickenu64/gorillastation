@@ -33,7 +33,7 @@
 /obj/item/circular_saw/field_medic
 	name = "bone saw"
 	desc = "Did that sting? SAW-ry!"
-	force = 20
+	force = 4
 	icon_state = "bonesaw"
 	icon = 'monkestation/code/modules/blueshift/icons/bonesaw.dmi'
 	lefthand_file = 'monkestation/code/modules/blueshift/icons/bonesaw_l.dmi'
@@ -53,7 +53,7 @@
 	icon = 'monkestation/code/modules/blueshift/icons/riot.dmi'
 	lefthand_file = 'monkestation/code/modules/blueshift/icons/riot_left.dmi'
 	righthand_file = 'monkestation/code/modules/blueshift/icons/riot_right.dmi'
-	force = 10
+	force = 2
 	throwforce = 5
 	throw_speed = 1
 	throw_range = 1
@@ -120,7 +120,7 @@
 	desc = "While very well weighted for throwing, the distribution of mass makes it unwieldy for use in melee."
 	icon = 'monkestation/code/modules/blueshift/icons/throwing.dmi'
 	icon_state = "throwing"
-	force = 12 // don't stab with this
+	force = 2 // don't stab with this
 	throwforce = 30 // 38 force on embed? compare contrast with throwing stars.
 	throw_speed = 4
 	embedding = list("pain_mult" = 4, "embed_chance" = 75, "fall_chance" = 10) // +10 embed chance up from combat knife's 65

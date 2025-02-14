@@ -690,7 +690,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
 	righthand_file = 'icons/mob/inhands/items/sheets_righthand.dmi'
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	sheettype = "bronze"
-	force = 5
+	force = 1
 	throwforce = 10
 	max_amount = 50
 	throw_speed = 1
@@ -747,7 +747,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
 	mats_per_unit = list(/datum/material/bone = SHEET_MATERIAL_AMOUNT)
 	singular_name = "bone"
 	desc = "Someone's been drinking their milk."
-	force = 7
+	force = 2
 	throwforce = 5
 	max_amount = 12
 	w_class = WEIGHT_CLASS_NORMAL

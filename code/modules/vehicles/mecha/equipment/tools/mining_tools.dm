@@ -11,7 +11,7 @@
 	icon_state = "mecha_drill"
 	equip_cooldown = 15
 	energy_drain = 10
-	force = 15
+	force = 3
 	harmful = TRUE
 	range = MECHA_MELEE
 	tool_behaviour = TOOL_DRILL
@@ -149,7 +149,7 @@
 	equip_cooldown = 10
 	drill_delay = 4
 	drill_level = DRILL_HARDENED
-	force = 15
+	force = 3
 	toolspeed = 0.7
 
 

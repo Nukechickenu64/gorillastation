@@ -12,7 +12,7 @@
 	inhand_icon_state = "rod"
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
-	force = 8
+	force = 2
 	w_class = WEIGHT_CLASS_HUGE
 
 	/// How far can you cast this

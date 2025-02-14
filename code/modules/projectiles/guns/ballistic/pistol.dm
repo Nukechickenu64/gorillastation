@@ -63,7 +63,7 @@
 	name = "\improper Desert Eagle"
 	desc = "A robust .50 AE handgun."
 	icon_state = "deagle"
-	force = 14
+	force = 3
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m50
 	can_suppress = FALSE
 	mag_display = TRUE

@@ -3,7 +3,7 @@
 	desc = "Standard office equipment. Precisely cuts paper using a large blade."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "papercutter"
-	force = 5
+	force = 1
 	throwforce = 5
 	w_class = WEIGHT_CLASS_NORMAL
 	pass_flags = PASSTABLE

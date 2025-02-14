@@ -39,7 +39,7 @@
 /obj/item/gun/ballistic/automatic/laser/ctf
 	accepted_magazine_type = /obj/item/ammo_box/magazine/recharge/ctf/rifle
 	desc = "This looks like it could really hurt in melee."
-	force = 50
+	force = 8
 	weapon_weight = WEAPON_HEAVY
 	slot_flags = null
 

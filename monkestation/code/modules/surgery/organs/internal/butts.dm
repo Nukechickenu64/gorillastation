@@ -7,7 +7,7 @@
 	zone = BODY_ZONE_PRECISE_GROIN
 	slot = ORGAN_SLOT_BUTT
 	throw_speed = 1
-	force = 4
+	force = 1
 	embedding = list("pain_mult" = 0, "jostle_pain_mult" = 0, "ignore_throwspeed_threshold" = TRUE, "embed_chance" = 20)
 	hitsound = 'sound/misc/fart1.ogg'
 	body_parts_covered = HEAD

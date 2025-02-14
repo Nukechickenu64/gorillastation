@@ -1064,11 +1064,11 @@
 /obj/structure/rack,
 /obj/item/nullrod/claymore/saber/red{
 	damtype = "stamina";
-	force = 30
+	force = 5
 	},
 /obj/item/nullrod/claymore/katana{
 	damtype = "stamina";
-	force = 30;
+	force = 5;
 	pixel_x = -8;
 	pixel_y = -1
 	},
@@ -1681,13 +1681,13 @@
 /obj/structure/rack,
 /obj/item/nullrod/claymore/saber{
 	damtype = "stamina";
-	force = 30;
+	force = 5;
 	pixel_x = 5;
 	pixel_y = -3
 	},
 /obj/item/nullrod/claymore/katana{
 	damtype = "stamina";
-	force = 30
+	force = 5
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/parquet,
@@ -1929,13 +1929,13 @@
 /obj/structure/rack,
 /obj/item/nullrod/scythe/vibro{
 	damtype = "stamina";
-	force = 30;
+	force = 5;
 	pixel_x = 5;
 	pixel_y = -2
 	},
 /obj/item/nullrod/claymore/glowing{
 	damtype = "stamina";
-	force = 30
+	force = 5
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/central_command_areas/holding)
@@ -2145,13 +2145,13 @@
 /obj/structure/rack,
 /obj/item/nullrod/claymore{
 	damtype = "stamina";
-	force = 30;
+	force = 5;
 	pixel_x = 4;
 	pixel_y = -1
 	},
 /obj/item/nullrod/claymore/darkblade{
 	damtype = "stamina";
-	force = 30;
+	force = 5;
 	pixel_x = -3;
 	pixel_y = 3
 	},

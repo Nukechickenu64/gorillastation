@@ -17,7 +17,7 @@
 		/datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT * 1.5,
 		/datum/material/titanium = HALF_SHEET_MATERIAL_AMOUNT,
 	)
-	force = 10
+	force = 2
 	throwforce = 8
 	throw_speed = 2
 	throw_range = 3
@@ -189,7 +189,7 @@
 	welding = TRUE
 	tool_behaviour = TOOL_WELDER
 	light_on = TRUE
-	force = 15
+	force = 3
 	damtype = BURN
 	hitsound = 'sound/items/welder.ogg'
 	set_light_on(powered)

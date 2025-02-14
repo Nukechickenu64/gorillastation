@@ -2749,34 +2749,34 @@
 /obj/structure/table/wood,
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = 7;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = -7;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = -3;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = 3;
 	throwforce = 4
@@ -3534,7 +3534,7 @@
 "qo" = (
 /obj/item/pickaxe{
 	desc = "It's almost broken.";
-	force = 8;
+	force = 2;
 	name = "damaged pickaxe";
 	throwforce = 4
 	},
@@ -3890,7 +3890,7 @@
 "yy" = (
 /obj/item/shovel{
 	desc = "A large tool for digging and moving snow.";
-	force = 10;
+	force = 2;
 	name = "settler's shovel"
 	},
 /obj/effect/decal/remains/human{
@@ -4167,7 +4167,7 @@
 /obj/effect/decal/remains/human,
 /obj/item/pickaxe{
 	desc = "It's almost broken.";
-	force = 8;
+	force = 2;
 	name = "damaged pickaxe";
 	throwforce = 4
 	},
@@ -4240,7 +4240,7 @@
 "LE" = (
 /obj/item/nullrod/claymore/multiverse{
 	anchored = 1;
-	force = 4
+	force = 1
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/indestructible,
@@ -4548,34 +4548,34 @@
 /obj/structure/table/wood,
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = 7;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = -7;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = -3;
 	throwforce = 4
 	},
 /obj/item/hatchet{
 	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
+	force = 1;
 	name = "weak hatchet";
 	pixel_x = 3;
 	throwforce = 4

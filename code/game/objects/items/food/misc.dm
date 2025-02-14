@@ -200,7 +200,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 5,
 		/datum/reagent/consumable/cherryjelly = 5,
 	)
-	force = 30
+	force = 5
 	throwforce = 15
 	block_chance = 55
 	armour_penetration = 80

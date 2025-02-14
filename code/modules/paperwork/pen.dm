@@ -106,7 +106,7 @@
 	name = "captain's fountain pen"
 	desc = "It's an expensive Oak fountain pen. The nib is quite sharp."
 	icon_state = "pen-fountain-o"
-	force = 5
+	force = 1
 	throwforce = 5
 	throw_speed = 4
 	colour = "#DC143C"
@@ -336,7 +336,7 @@
 	icon_state = "digging_pen"
 	inhand_icon_state = "pen"
 	worn_icon_state = "pen"
-	force = 3
+	force = 1
 	w_class = WEIGHT_CLASS_TINY
 	custom_materials = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT*0.1, /datum/material/diamond=SMALL_MATERIAL_AMOUNT, /datum/material/titanium = SMALL_MATERIAL_AMOUNT*0.1)
 	pressure_resistance = 2
@@ -349,7 +349,7 @@
 /obj/item/pen/destroyer
 	name = "Fine Tipped Pen"
 	desc = "A pen with an infinitly sharpened tip. Capable of striking the weakest point of a strucutre or robot and annihilating it instantly. Good at putting holes in people too."
-	force = 5
+	force = 1
 	wound_bonus = 100
 	demolition_mod = 9000
 

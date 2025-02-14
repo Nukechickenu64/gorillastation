@@ -87,27 +87,27 @@
 	var/obj/item/reference
 	switch(tool_behaviour)
 		if(TOOL_KNIFE)
-			force = 8
+			force = 2
 			reference = /obj/item/knife
 			AddElement(/datum/element/eyestab)
 		if(TOOL_SCREWDRIVER)
-			force = 4
+			force = 1
 			reference = /obj/item/screwdriver
 			AddElement(/datum/element/eyestab)
 		if(TOOL_WIRECUTTER)
-			force = 4
+			force = 1
 			reference = /obj/item/wirecutters
 		if(TOOL_WRENCH)
-			force = 4
+			force = 1
 			reference = /obj/item/wrench
 		if(TOOL_SHOVEL)
-			force = 6
+			force = 2
 			reference = /obj/item/shovel
 		if(TOOL_SAW)
-			force = 6
+			force = 2
 			reference = /obj/item/knife // There is no manual saw in the game ATM to refer
 		if(TOOL_ROLLINGPIN)
-			force = 6
+			force = 2
 			reference = /obj/item/kitchen/rollingpin
 		else
 			force = 0

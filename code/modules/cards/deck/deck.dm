@@ -224,7 +224,7 @@
 	icon_state = "deck_syndicate_full"
 	deckstyle = "syndicate"
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	force = 5
+	force = 1
 	throwforce = 10
 	attack_verb_continuous = list("attacks", "slices", "dices", "slashes", "cuts")
 	attack_verb_simple = list("attack", "slice", "dice", "slash", "cut")

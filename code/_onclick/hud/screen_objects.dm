@@ -751,3 +751,59 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/splash)
 	name = "stamina"
 	icon_state = "stamina0"
 	screen_loc = ui_stamina
+
+
+/atom/movable/screen/stat
+	name = "strength"
+	icon_state = "template"
+	screen_loc = ui_stat_str
+	var/mob/living/carbon/human/char
+	maptext_x = 13
+	maptext_y = 10
+	maptext = 0
+
+
+/atom/movable/screen/stat/proc/update_states()
+	char = hud.mymob
+	switch(name)
+		if("strength")
+			maptext = num2text(char.stats.strength)
+		if("perception")
+			maptext = num2text(char.stats.perception)
+		if("intelligence")
+			maptext = num2text(char.stats.intelligence)
+		if("willpower")
+			maptext = num2text(char.stats.willpower)
+		if("health")
+			maptext = num2text(char.stats.health)
+		if("dexterity")
+			maptext = num2text(char.stats.dexterity)
+
+/atom/movable/screen/stat/dexterity
+	name = "dexterity"
+	icon_state = "template"
+	screen_loc = ui_stat_dex
+
+
+/atom/movable/screen/stat/intelligence
+	name = "intelligence"
+	icon_state = "template"
+	screen_loc = ui_stat_int
+
+
+/atom/movable/screen/stat/willpower
+	name = "willpower"
+	icon_state = "template"
+	screen_loc = ui_stat_will
+
+
+/atom/movable/screen/stat/health
+	name = "health"
+	icon_state = "template"
+	screen_loc = ui_stat_hlt
+
+
+/atom/movable/screen/stat/perception
+	name = "perception"
+	icon_state = "template"
+	screen_loc = ui_stat_per

@@ -5,7 +5,7 @@
 	icon_state = "taser"
 	inhand_icon_state = "armcannonstun4"
 	display_empty = FALSE
-	force = 5
+	force = 1
 	selfcharge = 1
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL // Has no trigger at all, uses neural signals instead
 
@@ -18,7 +18,7 @@
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "laser_cyborg"
 	inhand_icon_state = "armcannonlase"
-	force = 5
+	force = 1
 	selfcharge = 1
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
 

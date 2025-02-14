@@ -231,3 +231,12 @@
 
 /// The filter name for the hover outline
 #define HOVER_OUTLINE_FILTER "hover_outline"
+
+//gurps stuff
+
+#define ui_stat_str "west-1:28,NORTH-4:19"
+#define ui_stat_per "west-1:28,NORTH-5:19"
+#define ui_stat_dex "west-1:28,NORTH-6:19"
+#define ui_stat_int "west-1:28,NORTH-7:19"
+#define ui_stat_hlt "west-1:28,NORTH-8:19"
+#define ui_stat_will "west-1:28,NORTH-9:19"

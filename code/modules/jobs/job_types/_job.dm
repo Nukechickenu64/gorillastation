@@ -546,6 +546,47 @@
 			real_name = species.random_name(gender, TRUE)
 	dna.update_dna_identity()
 
+	//less controllable gurps stuff
+
+
+
+	switch(gender)
+		if("female")
+			stats.strength -= 1
+		if("plural")
+			stats.strength -= 1
+			stats.intelligence -= 1
+	if(age > 60)
+		stats.intelligence += 1
+		stats.health -= 1
+		if(age > 70)
+			stats.intelligence += 1
+			stats.health -= 1
+			stats.strength -=2
+			if(age > 80)
+				stats.intelligence += 1
+				stats.health -= 1
+				stats.strength -=2
+				if(age > 90)
+					stats.intelligence += 2
+					stats.health -= 2
+					stats.strength -=3
+
+	base_stats.strength = stats.strength
+	base_stats.intelligence = stats.intelligence
+	base_stats.dexterity = stats.dexterity
+	base_stats.perception = stats.perception
+	base_stats.health = stats.health
+
+	maxHealth = stats.health * 10
+
+
+	skills.unarmed = ceil(trunc(age / pick(1.5,3)))
+	if(skills.unarmed > 20)
+		skills.unarmed = 20
+
+	birthday = "[pick(list("january","february","march","april","may","june","july","august","september","october","december","november"))], [pick(1,30)], [2564 - age]"
+
 /mob/living/silicon/ai/apply_prefs_job(client/player_client, datum/job/job)
 	if(GLOB.current_anonymous_theme)
 		fully_replace_character_name(real_name, GLOB.current_anonymous_theme.anonymous_ai_name(TRUE))

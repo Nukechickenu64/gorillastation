@@ -4,7 +4,7 @@
 /obj/item/bodypart
 	name = "limb"
 	desc = "Why is it detached..."
-	force = 3
+	force = 1
 	throwforce = 3
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/mob/species/human/bodyparts.dmi'

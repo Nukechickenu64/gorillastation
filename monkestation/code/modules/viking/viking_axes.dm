@@ -15,7 +15,7 @@
 	worn_icon_state = "hand_axe_worn"
 	desc = "A one handed axe used by vikings."
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	force = 20
+	force = 4
 	throwforce = 45
 	embedding = 50
 	wound_bonus = 25
@@ -28,7 +28,7 @@
 	worn_icon_state = "hand_axe_frost_worn"
 	desc = "An axe with no equal to its power."
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	force = 25
+	force = 5
 	throwforce = 65
 	embedding = 75
 	sharpness = SHARP_EDGED
@@ -49,7 +49,7 @@
 	base_icon_state = "battleaxe"
 	worn_icon_state = "battle_axe_worn"
 	desc = "A large 2 handed axe used for raiding."
-	force = 15
+	force = 3
 	throwforce = 60
 	embedding = 50
 	sharpness = SHARP_EDGED
@@ -78,7 +78,7 @@
 	worn_icon_state = "hooking_axe_worn"
 	desc = "An axe meant to disarm the users opponent."
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	force = 18
+	force = 3
 	throwforce = 40
 	embedding = 50
 	sharpness = SHARP_EDGED
@@ -100,7 +100,7 @@
 	base_icon_state = "runeaxe"
 	worn_icon_state = "rune_axe_worn"
 	desc = "A massive two handed axe gilded and inscribed with runes."
-	force = 20
+	force = 4
 	throwforce = 60
 	embedding = 50
 	sharpness = SHARP_EDGED

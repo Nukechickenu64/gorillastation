@@ -10,7 +10,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	slot_flags = ITEM_SLOT_BELT
 	custom_materials = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT * 0.6, /datum/material/glass=SMALL_MATERIAL_AMOUNT * 0.3)
-	force = 2
+	force = 1
 	throwforce = 2
 	speech_span = SPAN_TAPE_RECORDER
 	drop_sound = 'sound/items/handling/taperecorder_drop.ogg'

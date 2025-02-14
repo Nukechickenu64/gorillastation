@@ -341,7 +341,7 @@
 	icon_state = "tray"
 	worn_icon_state = "tray"
 	desc = "A metal tray to lay food on."
-	force = 5
+	force = 1
 	throwforce = 10
 	throw_speed = 3
 	throw_range = 5

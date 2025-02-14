@@ -39,7 +39,7 @@
 	lefthand_file = 'monkestation/icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'monkestation/icons/mob/inhands/weapons/melee_righthand.dmi'
 
-	force = 15 //damage increases by 2.5 for every soul they take
+	force = 3 //damage increases by 2.5 for every soul they take
 	throwforce = 15 //damage goes up by 2.5 for every soul they take
 	demolition_mod = 1.25
 

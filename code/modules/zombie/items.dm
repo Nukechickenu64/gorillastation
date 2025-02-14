@@ -6,7 +6,7 @@
 		child-safe caps on bottles."
 
 	hitsound = 'sound/hallucinations/growl1.ogg'
-	force = 21 // Just enough to break airlocks with melee attacks
+	force = 4 // Just enough to break airlocks with melee attacks
 	wound_bonus = -30
 	bare_wound_bonus = 15
 	sharpness = SHARP_EDGED

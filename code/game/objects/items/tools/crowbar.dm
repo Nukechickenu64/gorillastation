@@ -9,7 +9,7 @@
 	usesound = 'sound/items/crowbar.ogg'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 5
+	force = 1
 	throwforce = 7
 	demolition_mod = 1.25
 	w_class = WEIGHT_CLASS_SMALL
@@ -40,7 +40,7 @@
 /obj/item/crowbar/red
 	icon_state = "crowbar_red"
 	inhand_icon_state = "crowbar_red"
-	force = 8
+	force = 2
 
 /obj/item/crowbar/abductor
 	name = "alien crowbar"
@@ -56,7 +56,7 @@
 /obj/item/crowbar/large
 	name = "large crowbar"
 	desc = "It's a big crowbar. It doesn't fit in your pockets, because it's big."
-	force = 12
+	force = 2
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 3
 	throw_range = 3
@@ -73,7 +73,7 @@
 /obj/item/crowbar/large/heavy //from space ruin
 	name = "heavy crowbar"
 	desc = "It's a big crowbar. It doesn't fit in your pockets, because it's big. It feels oddly heavy.."
-	force = 20
+	force = 4
 	icon_state = "crowbar_powergame"
 	inhand_icon_state = "crowbar_red"
 
@@ -98,7 +98,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*2.25, /datum/material/silver = SHEET_MATERIAL_AMOUNT*1.25, /datum/material/titanium = SHEET_MATERIAL_AMOUNT*1.75)
 	usesound = 'sound/items/jaws_pry.ogg'
-	force = 15
+	force = 3
 	w_class = WEIGHT_CLASS_NORMAL
 	toolspeed = 0.7
 	force_opens = TRUE
@@ -175,7 +175,7 @@
 	icon_state = "crowbar_cyborg"
 	worn_icon_state = "crowbar"
 	usesound = 'sound/items/jaws_pry.ogg'
-	force = 10
+	force = 2
 	toolspeed = 0.5
 
 /obj/item/crowbar/mechremoval

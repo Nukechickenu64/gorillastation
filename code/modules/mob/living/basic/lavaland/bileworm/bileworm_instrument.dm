@@ -1,7 +1,7 @@
 /obj/item/instrument/bilehorn
 	name = "bilehorn"
 	desc = "Bits of bileworm anatomy rearranged to produce wonderful music, not bile. Keeps the name though, because for an instrument, it is quite vile."
-	force = 5
+	force = 1
 	icon = 'icons/mob/simple/lavaland/bileworm.dmi'
 	icon_state = "bilehorn"
 	allowed_instrument_ids = "bilehorn"

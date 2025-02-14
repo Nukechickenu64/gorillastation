@@ -138,7 +138,7 @@
 	icon_state = "gar_meson"
 	inhand_icon_state = "gar_meson"
 	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
-	force = 10
+	force = 2
 	throwforce = 10
 	throw_speed = 4
 	attack_verb_continuous = list("slices")
@@ -258,7 +258,7 @@
 	icon_state = "gar_meson"
 	inhand_icon_state = "gar_meson"
 	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
-	force = 10
+	force = 2
 	throwforce = 20
 	throw_speed = 4
 	attack_verb_continuous = list("slices")
@@ -369,7 +369,7 @@
 	icon_state = "gar_black"
 	inhand_icon_state = "gar_black"
 	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
-	force = 10
+	force = 2
 	throwforce = 10
 	throw_speed = 4
 	attack_verb_continuous = list("slices")
@@ -388,7 +388,7 @@
 	name = "black giga gar glasses"
 	desc = "Believe in us humans."
 	icon_state = "gigagar_black"
-	force = 12
+	force = 2
 	throwforce = 12
 
 /obj/item/clothing/glasses/sunglasses/gar/giga/red

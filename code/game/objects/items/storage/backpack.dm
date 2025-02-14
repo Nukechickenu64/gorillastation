@@ -268,7 +268,7 @@
 	desc = "MEAT MEAT MEAT MEAT MEAT MEAT"
 	icon_state = "meatmeatmeat"
 	inhand_icon_state = "meatmeatmeat"
-	force = 15
+	force = 3
 	throwforce = 15
 	attack_verb_continuous = list("MEATS", "MEAT MEATS")
 	attack_verb_simple = list("MEAT", "MEAT MEAT")

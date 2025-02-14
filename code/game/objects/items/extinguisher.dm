@@ -11,7 +11,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 2
 	throw_range = 7
-	force = 10
+	force = 2
 	demolition_mod = 1.25
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 0.9)
 	attack_verb_continuous = list("slams", "whacks", "bashes", "thunks", "batters", "bludgeons", "thrashes")
@@ -56,7 +56,7 @@
 	flags_1 = null //doesn't CONDUCT_1
 	throwforce = 2
 	w_class = WEIGHT_CLASS_SMALL
-	force = 3
+	force = 1
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT* 0.5, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 0.4)
 	max_water = 30
 	sprite_name = "miniFE"
@@ -75,7 +75,7 @@
 	flags_1 = null //doesn't CONDUCT_1
 	throwforce = 1
 	w_class = WEIGHT_CLASS_SMALL
-	force = 3
+	force = 1
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 0.4)
 	max_water = 30
 	sprite_name = "coolant"

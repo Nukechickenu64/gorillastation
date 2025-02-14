@@ -4,7 +4,7 @@
 	righthand_file = 'icons/mob/inhands/items/sheets_righthand.dmi'
 	icon_state = "sheet-metal_3"
 	full_w_class = WEIGHT_CLASS_NORMAL
-	force = 5
+	force = 1
 	throwforce = 5
 	max_amount = 50
 	throw_speed = 1

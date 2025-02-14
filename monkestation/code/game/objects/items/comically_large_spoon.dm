@@ -14,7 +14,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 9)
 
-	force = 2 // It's a bit unwieldy for one hand.
+	force = 1 // It's a bit unwieldy for one hand.
 	sharpness = NONE // spoon.
 	armour_penetration = -50 // Literally couldn't possibly be a worse weapon for hitting armor.
 	throwforce = 1 // It's terribly weighted, what do you expect?

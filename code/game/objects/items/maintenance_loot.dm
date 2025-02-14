@@ -13,7 +13,7 @@
 	//wow, lore
 	desc = "A hefty lead pipe.\nLead in an uncommon sight in this sector after being phased out due to employee health concerns. \
 	\nThose of a more cynical disposition assume that the NT lead ban is a scheme to prevent divertion to Syndicate ammunition factories."
-	force = 15
+	force = 3
 	throwforce = 12
 	throw_range = 4
 	w_class = WEIGHT_CLASS_BULKY

@@ -146,7 +146,7 @@
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*5, /datum/material/glass = SHEET_MATERIAL_AMOUNT*3)
 	flags_1 = CONDUCT_1
 	item_flags = SURGICAL_TOOL
-	force = 15
+	force = 3
 	demolition_mod = 0.5
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("drills")
@@ -189,7 +189,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
 	flags_1 = CONDUCT_1
 	item_flags = SURGICAL_TOOL
-	force = 10
+	force = 2
 	demolition_mod = 0.25
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 5
@@ -239,7 +239,7 @@
 	mob_throw_hit_sound = 'sound/weapons/pierce.ogg'
 	flags_1 = CONDUCT_1
 	item_flags = SURGICAL_TOOL
-	force = 15
+	force = 3
 	w_class = WEIGHT_CLASS_NORMAL
 	throwforce = 9
 	throw_speed = 2
@@ -374,7 +374,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*3, /datum/material/glass =HALF_SHEET_MATERIAL_AMOUNT * 1.5, /datum/material/silver =SHEET_MATERIAL_AMOUNT, /datum/material/gold =HALF_SHEET_MATERIAL_AMOUNT * 1.5, /datum/material/diamond =SMALL_MATERIAL_AMOUNT * 2, /datum/material/titanium = SHEET_MATERIAL_AMOUNT*2)
 	hitsound = 'sound/weapons/blade1.ogg'
-	force = 16
+	force = 3
 	w_class = WEIGHT_CLASS_NORMAL
 	toolspeed = 0.7
 	light_system = OVERLAY_LIGHT
@@ -475,7 +475,7 @@
 	flags_1 = CONDUCT_1
 	item_flags = SURGICAL_TOOL
 	toolspeed = 1
-	force = 12
+	force = 2
 	w_class = WEIGHT_CLASS_NORMAL
 	throwforce = 6
 	throw_speed = 2

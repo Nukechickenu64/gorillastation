@@ -8,7 +8,7 @@
 	righthand_file = 'monkestation/code/modules/cybernetics/icons/swords_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	flags_1 = CONDUCT_1
-	force = 12
+	force = 2
 	wound_bonus = 20
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
@@ -61,7 +61,7 @@
 	name = "A.R.A.S.A.K.A. mantis blade"
 	icon_state = "syndie_mantis"
 	inhand_icon_state = "syndie_mantis"
-	force = 15
+	force = 3
 	block_chance = 20
 	bare_wound_bonus = 30
 	armour_penetration = 35

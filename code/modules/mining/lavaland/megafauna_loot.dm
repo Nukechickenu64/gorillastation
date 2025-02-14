@@ -53,7 +53,7 @@
 	inhand_y_dimension = 64
 	slot_flags = ITEM_SLOT_BACK
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 15
+	force = 3
 	attack_verb_continuous = list("clubs", "beats", "pummels")
 	attack_verb_simple = list("club", "beat", "pummel")
 	hitsound = 'sound/weapons/sonic_jackhammer.ogg'
@@ -361,7 +361,7 @@
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
-	force = 20
+	force = 4
 	throwforce = 17
 	armour_penetration = 50
 	sharpness = SHARP_EDGED
@@ -776,7 +776,7 @@
 	icon = 'icons/obj/weapons/guns/magic.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 18
+	force = 3
 	damtype = BURN
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	attack_verb_continuous = list("sears", "clubs", "burn")
@@ -850,7 +850,7 @@
 	worn_icon_state = "cleaving_saw"
 	attack_verb_continuous = list("attacks", "saws", "slices", "tears", "lacerates", "rips", "dices", "cuts")
 	attack_verb_simple = list("attack", "saw", "slice", "tear", "lacerate", "rip", "dice", "cut")
-	force = 12
+	force = 2
 	throwforce = 20
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
@@ -1002,7 +1002,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/staves_righthand.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	w_class = WEIGHT_CLASS_BULKY
-	force = 20
+	force = 4
 	damtype = BURN
 	hitsound = 'sound/weapons/taserhit.ogg'
 	wound_bonus = -30

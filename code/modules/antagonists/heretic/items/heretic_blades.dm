@@ -12,7 +12,7 @@
 	flags_1 = CONDUCT_1
 	sharpness = SHARP_EDGED
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 20
+	force = 4
 	throwforce = 10
 	wound_bonus = 5
 	bare_wound_bonus = 15

@@ -531,7 +531,7 @@
 /obj/effect/landmark/start/hangover,
 /obj/structure/sacrificealtar,
 /obj/item/knife/ritual{
-	force = 5;
+	force = 1;
 	name = "dull ritual knife"
 	},
 /turf/open/floor/cult,

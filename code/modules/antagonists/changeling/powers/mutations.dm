@@ -184,7 +184,7 @@
 	righthand_file = 'icons/mob/inhands/antag/changeling_righthand.dmi'
 	item_flags = NEEDS_PERMIT | ABSTRACT | DROPDEL
 	w_class = WEIGHT_CLASS_HUGE
-	force = 25
+	force = 5
 	throwforce = 0 //Just to be on the safe side
 	throw_range = 0
 	throw_speed = 0

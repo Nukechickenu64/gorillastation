@@ -11,7 +11,7 @@
 	update_appearance()
 
 /obj/item/melee/sabre
-	force = 20 // Original: 15
+	force = 4 // Original: 15
 	wound_bonus = 5 // Original: 10
 	bare_wound_bonus = 20 // Original: 25 Both down slightly, to make up for the damage buff, since it'd get a bit wacky ontop of the armor pen.
 

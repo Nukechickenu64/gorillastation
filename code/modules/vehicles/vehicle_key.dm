@@ -26,7 +26,7 @@
 /obj/item/key/janitor
 	desc = "A keyring with a small steel key, and a pink fob reading \"Pussy Wagon\"."
 	icon_state = "keyjanitor"
-	force = 2
+	force = 1
 	w_class = WEIGHT_CLASS_SMALL
 	throwforce = 9
 	hitsound = SFX_SWING_HIT
@@ -77,7 +77,7 @@
 /obj/item/key/lasso
 	name = "bone lasso"
 	desc = "The perfect tool for directing a Goliath! If only it made them move any faster..."
-	force = 12
+	force = 2
 	icon_state = "lasso"
 	inhand_icon_state = "chain"
 	worn_icon_state = "whip"

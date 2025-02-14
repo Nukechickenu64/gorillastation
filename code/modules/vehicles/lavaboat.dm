@@ -25,7 +25,7 @@
 	inhand_icon_state = "oar"
 	lefthand_file = 'icons/mob/inhands/items/lavaland_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/lavaland_righthand.dmi'
-	force = 12
+	force = 2
 	w_class = WEIGHT_CLASS_NORMAL
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 

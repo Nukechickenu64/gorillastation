@@ -4,7 +4,7 @@
 
 /obj/item/light
 	icon = 'icons/obj/lighting.dmi'
-	force = 2
+	force = 1
 	throwforce = 5
 	w_class = WEIGHT_CLASS_TINY
 	custom_materials = list(/datum/material/glass=SMALL_MATERIAL_AMOUNT)
@@ -127,7 +127,7 @@
 	if(status == LIGHT_OK || status == LIGHT_BURNED)
 		visible_message(span_danger("[src] shatters."),span_hear("You hear a small glass object shatter."))
 		status = LIGHT_BROKEN
-		force = 5
+		force = 1
 		sharpness = SHARP_POINTY
 		playsound(loc, 'sound/effects/glasshit.ogg', 75, TRUE)
 		if(length(reagents.reagent_list))

@@ -4,7 +4,7 @@
 	desc = "The ground you walk on."
 	icon_state = "tile"
 	inhand_icon_state = "tile"
-	force = 6
+	force = 2
 	mats_per_unit = list(/datum/material/iron=SMALL_MATERIAL_AMOUNT*5)
 	throwforce = 10
 	flags_1 = CONDUCT_1

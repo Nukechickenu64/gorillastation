@@ -5,7 +5,7 @@
 	base_icon_state = "chemg"
 	inhand_icon_state = "flashbang"
 	w_class = WEIGHT_CLASS_SMALL
-	force = 2
+	force = 1
 	/// Which stage of construction this grenade is currently at.
 	var/stage = GRENADE_EMPTY
 	/// The set of reagent containers that have been added to this grenade casing.

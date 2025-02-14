@@ -43,7 +43,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 8
+	force = 2
 
 	/// How many uses does our light replacer have?
 	var/uses = 10

@@ -237,11 +237,11 @@
 	if(damtype != STAMINA && force && HAS_TRAIT(user, TRAIT_CANT_ATTACK))
 		to_chat(user, span_warning("You can not attack in this state!"))
 		return
-
-	if(!force && !HAS_TRAIT(src, TRAIT_CUSTOM_TAP_SOUND))
-		playsound(loc, 'sound/weapons/tap.ogg', get_clamped_volume(), TRUE, -1)
-	else if(hitsound)
-		playsound(loc, hitsound, get_clamped_volume(), TRUE, extrarange = stealthy_audio ? SILENCED_SOUND_EXTRARANGE : -1, falloff_distance = 0)
+	if(!istype(target_mob, /mob/living/carbon/human) || !istype(user, /mob/living/carbon/human))
+		if(!force && !HAS_TRAIT(src, TRAIT_CUSTOM_TAP_SOUND))
+			playsound(loc, 'sound/weapons/tap.ogg', get_clamped_volume(), TRUE, -1)
+		else if(hitsound)
+			playsound(loc, hitsound, get_clamped_volume(), TRUE, extrarange = stealthy_audio ? SILENCED_SOUND_EXTRARANGE : -1, falloff_distance = 0)
 
 	target_mob.lastattacker = user.real_name
 	target_mob.lastattackerckey = user.ckey
@@ -337,10 +337,27 @@
 	CRASH("areas are NOT supposed to have attacked_by() called on them!")
 
 /mob/living/attacked_by(obj/item/attacking_item, mob/living/user)
-	send_item_attack_message(attacking_item, user)
 	if(!attacking_item.force)
 		return FALSE
-	var/damage = attacking_item.force * user.outgoing_damage_mod
+	var/damage
+	if(istype(user, /mob/living/carbon/human))
+		var/mob/living/carbon/human/hmn = user
+		if(hmn.gurps.to_hit(user,src,0,attacking_item.weapon_type,BODY_ZONE_CHEST))
+			if(attacking_item.damtype == BRUTE || attacking_item.damtype == STAMINA)
+				if(hmn.stats.strength > attacking_item.str_req)
+					damage = hmn.stats.strength
+				else
+					damage = ((dice6(attacking_item.force) + (hmn.stats.strength / 10)) + hmn.stats.strength / 10 + (hmn.stats.strength / 2) - 3) * user.outgoing_damage_mod
+			else
+				damage = dice6(attacking_item.force) * user.outgoing_damage_mod
+		else
+			visible_message(span_danger("[user]'s [attacking_item] misses [src]!"), \
+							span_danger("You avoid [user]'s [attacking_item]!"), span_hear("You hear a swoosh!"), COMBAT_MESSAGE_RANGE, user)
+			to_chat(user, span_warning("Your [attacking_item] misses [src]!"))
+			return FALSE
+	else
+		damage = attacking_item.force * user.outgoing_damage_mod
+	send_item_attack_message(attacking_item, user)
 	if(mob_biotypes & MOB_ROBOTIC)
 		damage *= attacking_item.demolition_mod
 	apply_damage(damage, attacking_item.damtype)

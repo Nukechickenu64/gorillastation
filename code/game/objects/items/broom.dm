@@ -9,7 +9,7 @@
 	base_icon_state = "broom"
 	lefthand_file = 'icons/mob/inhands/equipment/custodial_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/custodial_righthand.dmi'
-	force = 8
+	force = 2
 	throwforce = 10
 	throw_speed = 3
 	throw_range = 7

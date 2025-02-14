@@ -7,7 +7,7 @@
 	max_integrity = 400
 	armor_type = /datum/armor/mecha_durand
 	max_temperature = 30000
-	force = 40
+	force = 20
 	destruction_sleep_duration = 40
 	exit_delay = 40
 	encumbrance_gap = 2

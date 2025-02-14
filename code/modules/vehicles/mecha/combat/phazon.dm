@@ -15,7 +15,7 @@
 	internal_damage_threshold = 20
 	wreckage = /obj/structure/mecha_wreckage/phazon
 	mech_type = EXOSUIT_MODULE_PHAZON
-	force = 15
+	force = 45
 	max_equip_by_category = list(
 		MECHA_UTILITY = 1,
 		MECHA_POWER = 1,

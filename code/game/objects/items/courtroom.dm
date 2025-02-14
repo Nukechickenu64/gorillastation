@@ -7,7 +7,7 @@
 	desc = "Order, order! No bombs in my courthouse."
 	icon = 'icons/obj/weapons/hammer.dmi'
 	icon_state = "gavelhammer"
-	force = 5
+	force = 1
 	throwforce = 6
 	w_class = WEIGHT_CLASS_SMALL
 	attack_verb_continuous = list("bashes", "batters", "judges", "whacks")
@@ -28,7 +28,7 @@
 	desc = "Smack it with a gavel hammer when the assistants get rowdy."
 	icon = 'icons/obj/weapons/hammer.dmi'
 	icon_state = "gavelblock"
-	force = 2
+	force = 1
 	throwforce = 2
 	w_class = WEIGHT_CLASS_TINY
 	resistance_flags = FLAMMABLE

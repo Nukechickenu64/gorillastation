@@ -41,7 +41,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/plants_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/plants_righthand.dmi'
 	damtype = BURN
-	force = 15
+	force = 3
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	throwforce = 5
 	w_class = WEIGHT_CLASS_NORMAL
@@ -61,6 +61,6 @@
 	icon_state = "deathnettle"
 	inhand_icon_state = "deathnettle"
 	bite_consumption_mod = 4 // I guess if you really wanted to
-	force = 30
+	force = 5
 	wound_bonus = CANT_WOUND
 	throwforce = 15

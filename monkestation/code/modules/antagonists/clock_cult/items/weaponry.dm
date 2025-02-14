@@ -72,7 +72,7 @@
 	icon_state = "ratvarian_spear0"
 	embedding = list("max_damage_mult" = 15, "armour_block" = 80)
 	throwforce = 40
-	force = 7
+	force = 2
 	armour_penetration = 40
 	block_chance = 15
 	clockwork_desc = "Can be summoned back to its last holder every 10 seconds if they are standing on bronze."
@@ -212,7 +212,7 @@
 	name = "brass longsword"
 	desc = "A large sword made of brass."
 	icon_state = "ratvarian_sword"
-	force = 20
+	force = 4
 	throwforce = 20
 	armour_penetration = 15
 	attack_verb_simple = list("attack", "slash", "cut", "tear", "gore")
@@ -260,7 +260,7 @@
 	icon_state = "bow_clockwork_unchambered_undrawn"
 	inhand_icon_state = "clockwork_bow"
 	base_icon_state = "bow_clockwork"
-	force = 10
+	force = 2
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/bow/clockwork
 	/// Time between bolt recharges
 	var/recharge_time = 1.5 SECONDS

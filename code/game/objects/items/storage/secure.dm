@@ -127,7 +127,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/briefcase_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/briefcase_righthand.dmi'
 	desc = "A large briefcase with a digital locking system."
-	force = 8
+	force = 2
 	hitsound = SFX_SWING_HIT
 	throw_speed = 2
 	throw_range = 4
@@ -146,7 +146,7 @@
 
 ///Syndie variant of Secure Briefcase. Contains space cash, slightly more robust.
 /obj/item/storage/secure/briefcase/syndie
-	force = 15
+	force = 3
 
 /obj/item/storage/secure/briefcase/syndie/PopulateContents()
 	..()

@@ -9,7 +9,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 5
+	force = 1
 	throwforce = 7
 	demolition_mod = 1.25
 	w_class = WEIGHT_CLASS_SMALL
@@ -52,7 +52,7 @@
 	desc = "A medical wrench with common(medical?) uses. Can be found in your hand."
 	icon_state = "wrench_medical"
 	inhand_icon_state = "wrench_medical"
-	force = 2 //MEDICAL
+	force = 1 //MEDICAL
 	throwforce = 4
 	attack_verb_continuous = list("heals", "medicals", "taps", "pokes", "analyzes") //"cobbyed"
 	attack_verb_simple = list("heal", "medical", "tap", "poke", "analyze")

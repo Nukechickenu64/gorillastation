@@ -17,7 +17,7 @@
 
 ///Syndie variant of Secure Briefcase. Contains space cash, slightly more robust.
 /obj/item/storage/briefcase/secure/syndie
-	force = 15
+	force = 3
 
 /obj/item/storage/briefcase/secure/syndie/PopulateContents()
 	. = ..()

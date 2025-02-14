@@ -6,4 +6,4 @@
 	highly_infecious = FALSE
 
 /obj/item/mutant_hand/zombie/low_infection/weak
-	force = 17
+	force = 3

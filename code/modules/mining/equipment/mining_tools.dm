@@ -6,7 +6,7 @@
 	inhand_icon_state = "pickaxe"
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_BACK
-	force = 15
+	force = 3
 	throwforce = 10
 	demolition_mod = 1.15
 	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
@@ -39,7 +39,7 @@
 	desc = "A smaller, compact version of the standard pickaxe."
 	icon_state = "minipick"
 	worn_icon_state = "pickaxe"
-	force = 10
+	force = 2
 	throwforce = 7
 	slot_flags = ITEM_SLOT_BELT
 	w_class = WEIGHT_CLASS_NORMAL
@@ -51,7 +51,7 @@
 	inhand_icon_state = "spickaxe"
 	toolspeed = 0.5 //mines faster than a normal pickaxe, bought from mining vendor
 	desc = "A silver-plated pickaxe that mines slightly faster than standard-issue."
-	force = 17
+	force = 3
 
 /obj/item/pickaxe/diamond
 	name = "diamond-tipped pickaxe"
@@ -59,7 +59,7 @@
 	inhand_icon_state = "dpickaxe"
 	toolspeed = 0.3
 	desc = "A pickaxe with a diamond pick head. Extremely robust at cracking rock walls and digging up dirt."
-	force = 19
+	force = 4
 
 /obj/item/pickaxe/drill
 	name = "mining drill"
@@ -108,7 +108,7 @@
 	icon_state = "ipickaxe"
 	inhand_icon_state = "ipickaxe"
 	worn_icon_state = "pickaxe"
-	force = 10
+	force = 2
 	throwforce = 7
 	toolspeed = 3 //3 times slower than a normal pickaxe
 	slot_flags = ITEM_SLOT_BELT
@@ -125,7 +125,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 8
+	force = 2
 	throwforce = 4
 	tool_behaviour = TOOL_SHOVEL
 	toolspeed = 1
@@ -158,7 +158,7 @@
 	inhand_icon_state = "spade"
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
-	force = 5
+	force = 1
 	throwforce = 7
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -169,7 +169,7 @@
 	worn_icon_state = "shovel_serr"
 	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
-	force = 15
+	force = 3
 	throwforce = 12
 	w_class = WEIGHT_CLASS_NORMAL
 	toolspeed = 0.7
@@ -186,7 +186,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
 	flags_1 = CONDUCT_1
-	force = 15
+	force = 3
 	throwforce = 6
 	w_class = WEIGHT_CLASS_SMALL
 	tool_behaviour = TOOL_WRENCH

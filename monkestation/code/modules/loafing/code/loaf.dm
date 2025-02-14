@@ -179,7 +179,7 @@
 			src.name = "dense " + initial(src.name)
 			src.desc = initial(src.desc) + "\n This loaf is noticeably heavier than usual."
 			src.icon_state = initial(src.icon_state) + "0"
-			src.force = 2
+			src.force = 1
 			src.throwforce = 2
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 3)
 			src.reagents.add_reagent(/datum/reagent/consumable/nutraslop, 3)
@@ -187,7 +187,7 @@
 			src.name = "compacted " + initial(src.name)
 			src.desc = initial(src.desc) + "\n Hooh, this thing packs a punch. What are they putting into these?"
 			src.icon_state = initial(src.icon_state) + "0"
-			src.force = 4
+			src.force = 1
 			src.throwforce = 4
 			src.throw_range = 6
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 5)
@@ -196,7 +196,7 @@
 			src.name = "super-compressed " + initial(src.name)
 			src.desc = initial(src.desc) + "\n Hard enough to scratch a diamond, yet still somehow edible,\n this loaf seems to be emitting decay heat. Dear god."
 			src.icon_state = initial(src.icon_state) + "1"
-			src.force = 5
+			src.force = 1
 			src.throwforce = 5
 			src.throw_range = 6
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 8)
@@ -205,7 +205,7 @@
 			src.name = "molecular " + initial(src.name)
 			src.desc = initial(src.desc) + "\n The loaf has become so dense that no food particulates are visible to the naked eye."
 			src.icon_state = initial(src.icon_state) + "2"
-			src.force = 10
+			src.force = 2
 			src.throwforce = 10
 			src.throw_range = 5
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)
@@ -215,7 +215,7 @@
 			src.name = "atomic " + initial(src.name)
 			src.desc = initial(src.desc) + "\n Forget food particulates, the loaf is now comprised of flavor atoms."
 			src.icon_state = initial(src.icon_state) + "3"
-			src.force = 20
+			src.force = 4
 			src.throwforce = 20
 			src.throw_range = 4
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)
@@ -225,7 +225,7 @@
 			src.name = "sub atomic " + initial(src.name)
 			src.desc = initial(src.desc) + "\n Oh good, the flavor atoms in this prison loaf have collapsed down to a a solid lump of neutrons. Eating this could prove dangerous."
 			src.icon_state = initial(src.icon_state) + "4"
-			src.force = 30
+			src.force = 5
 			src.throwforce = 30
 			src.throw_range = 3
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)
@@ -235,7 +235,7 @@
 			src.name = "quark " + initial(src.name)
 			src.desc = initial(src.desc) + "\n This nutritional loaf is collapsing into subatomic flavor particles. Consuption could convert your DNA into synthetic sludge."
 			src.icon_state = initial(src.icon_state) + "5"
-			src.force = 50
+			src.force = 8
 			src.throwforce = 50
 			src.throw_range = 2
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)
@@ -245,7 +245,7 @@
 			src.name = "strangelet " + initial(src.name)
 			src.desc = initial(src.desc) + "\n At this point you may be considering: has man gone too far? Are we meant to have food this powerful?"
 			src.icon_state = initial(src.icon_state) + "6"
-			src.force = 75
+			src.force = 12
 			src.throwforce = 75
 			src.throw_range = 1
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)
@@ -255,7 +255,7 @@
 			src.name = "quantum " + initial(src.name)
 			src.desc = initial(src.desc) + "\n The mere existence of this nutritional masterpiece is causing reality to distort!"
 			src.icon_state = initial(src.icon_state) + "7"
-			src.force = 100
+			src.force = 19
 			src.throwforce = 100
 			src.throw_range = 0
 			src.reagents.add_reagent(/datum/reagent/consumable/salt, 10)

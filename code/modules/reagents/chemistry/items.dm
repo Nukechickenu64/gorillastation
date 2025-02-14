@@ -215,7 +215,7 @@
 		return
 	lit = new_lit
 	if(lit)
-		force = 5
+		force = 1
 		damtype = BURN
 		hitsound = 'sound/items/welder.ogg'
 		attack_verb_continuous = string_list(list("burns", "singes"))

@@ -112,7 +112,7 @@
 	attack_verb_simple = list("staked", "stabbed", "tore into")
 	sharpness = SHARP_EDGED
 	embedding = list("embed_chance" = 20)
-	force = 6
+	force = 2
 	throwforce = 10
 	max_integrity = 30
 
@@ -174,7 +174,7 @@
 	name = "hardened stake"
 	desc = "A wooden stake carved to a sharp point and hardened by fire."
 	icon_state = "hardened"
-	force = 8
+	force = 2
 	throwforce = 12
 	armour_penetration = 10
 	embedding = list("embed_chance" = 35)
@@ -186,7 +186,7 @@
 	icon_state = "silver"
 	inhand_icon_state = "silver"
 	siemens_coefficient = 1 //flags = CONDUCT // var/siemens_coefficient = 1 // for electrical admittance/conductance (electrocution checks and shit)
-	force = 9
+	force = 2
 	armour_penetration = 25
 	embedding = list("embed_chance" = 65)
 	staketime = 60

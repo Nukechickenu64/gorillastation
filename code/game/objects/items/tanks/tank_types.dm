@@ -28,7 +28,7 @@
 	inhand_icon_state = "oxygen_tank"
 	tank_holder_icon_state = "holder_oxygen"
 	distribute_pressure = TANK_DEFAULT_RELEASE_PRESSURE
-	force = 10
+	force = 2
 	dog_fashion = /datum/dog_fashion/back
 
 
@@ -63,7 +63,7 @@
 	icon_state = "anesthetic"
 	inhand_icon_state = "an_tank"
 	tank_holder_icon_state = "holder_anesthetic"
-	force = 10
+	force = 2
 
 /obj/item/tank/internals/anesthetic/populate_gas()
 	air_contents.assert_gases(/datum/gas/oxygen, /datum/gas/nitrous_oxide)
@@ -82,7 +82,7 @@
 	tank_holder_icon_state = null
 	flags_1 = CONDUCT_1
 	slot_flags = null //they have no straps!
-	force = 8
+	force = 2
 
 
 /obj/item/tank/internals/plasma/populate_gas()
@@ -119,7 +119,7 @@
 	icon_state = "plasmaman_tank"
 	inhand_icon_state = "plasmaman_tank"
 	tank_holder_icon_state = null
-	force = 10
+	force = 2
 	distribute_pressure = TANK_PLASMAMAN_RELEASE_PRESSURE
 
 /obj/item/tank/internals/plasmaman/populate_gas()
@@ -138,7 +138,7 @@
 	tank_holder_icon_state = null
 	worn_icon = null
 	slot_flags = ITEM_SLOT_BELT
-	force = 5
+	force = 1
 	volume = 6 //same size as the engineering ones but plasmamen have special lungs that consume less plasma per breath
 	w_class = WEIGHT_CLASS_SMALL //thanks i forgot this
 
@@ -165,7 +165,7 @@
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
 	w_class = WEIGHT_CLASS_SMALL
-	force = 4
+	force = 1
 	distribute_pressure = TANK_DEFAULT_RELEASE_PRESSURE
 	volume = 3 //Tiny. Real life equivalents only have 21 breaths of oxygen in them. They're EMERGENCY tanks anyway -errorage (dangercon 2011)
 
@@ -210,7 +210,7 @@
 	icon_state = "generic"
 	inhand_icon_state = "generic_tank"
 	distribute_pressure = TANK_DEFAULT_RELEASE_PRESSURE
-	force = 10
+	force = 2
 	dog_fashion = /datum/dog_fashion/back
 
 /obj/item/tank/internals/generic/populate_gas()

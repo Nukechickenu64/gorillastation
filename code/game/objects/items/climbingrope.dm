@@ -6,7 +6,7 @@
 	inhand_icon_state = "crowbar_brass"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
-	force = 5
+	force = 1
 	throwforce = 10
 	reach = 2
 	throw_range = 4
@@ -47,11 +47,11 @@
 	if(do_after(user, climb_time, target))
 		user.Move(target)
 		uses--
-	
+
 	if(uses <= 0)
 		user.visible_message(span_warning("[src] snaps and tears apart!"))
 		qdel(src)
-	
+
 	QDEL_LIST(effects)
 
 /obj/item/climbing_hook/emergency

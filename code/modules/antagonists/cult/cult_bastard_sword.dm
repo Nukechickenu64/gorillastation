@@ -7,7 +7,7 @@
 	block_chance = 50
 	block_sound = 'sound/weapons/parry.ogg'
 	throwforce = 20
-	force = 35
+	force = 6
 	armour_penetration = 45
 	throw_speed = 1
 	throw_range = 3
@@ -74,7 +74,7 @@
 	if(!IS_CULTIST(user))
 		if(!IS_HERETIC(user))
 			to_chat(user, "<span class='cultlarge'>\"I wouldn't advise that.\"</span>")
-			force = 5
+			force = 1
 			return
 		else
 			to_chat(user, span_cultlarge("\"You cling to the Forgotten Gods, as if you're more than their pawn.\""))

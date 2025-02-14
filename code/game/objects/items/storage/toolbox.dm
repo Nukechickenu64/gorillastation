@@ -7,7 +7,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/toolbox_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/toolbox_righthand.dmi'
 	flags_1 = CONDUCT_1
-	force = 12
+	force = 2
 	throwforce = 12
 	throw_speed = 2
 	throw_range = 7
@@ -96,7 +96,7 @@
 /obj/item/storage/toolbox/mechanical/old/heirloom
 	name = "toolbox" //this will be named "X family toolbox"
 	desc = "It's seen better days."
-	force = 5
+	force = 1
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/toolbox/mechanical/old/heirloom/Initialize(mapload)
@@ -112,14 +112,14 @@
 	icon_state = "oldtoolboxclean"
 	inhand_icon_state = "toolbox_blue"
 	has_latches = FALSE
-	force = 19
+	force = 4
 	throwforce = 22
 
 /obj/item/storage/toolbox/mechanical/old/clean/proc/calc_damage()
 	var/power = 0
 	for (var/obj/item/stack/telecrystal/stored_crystals in get_all_contents())
 		power += (stored_crystals.amount / 2)
-	force = 19 + power
+	force = 4 + power
 	throwforce = 22 + power
 
 /obj/item/storage/toolbox/mechanical/old/clean/attack(mob/target, mob/living/user)
@@ -165,7 +165,7 @@
 	name = "suspicious looking toolbox"
 	icon_state = "syndicate"
 	inhand_icon_state = "toolbox_syndi"
-	force = 15
+	force = 3
 	throwforce = 18
 	material_flags = NONE
 

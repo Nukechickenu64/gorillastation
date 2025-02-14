@@ -101,7 +101,7 @@
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
-	force = 8 //Force is same as a chair
+	force = 2 //Force is same as a chair
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*5)
 	///The wheelchair vehicle type we create when we unfold this chair
 	var/unfolded_type = /obj/vehicle/ridden/wheelchair
@@ -115,7 +115,7 @@
 	inhand_icon_state = "wheelchair_folded_gold"
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
-	force = 10
+	force = 2
 	custom_materials = list(/datum/material/gold = SHEET_MATERIAL_AMOUNT*5)
 	unfolded_type = /obj/vehicle/ridden/wheelchair/gold
 

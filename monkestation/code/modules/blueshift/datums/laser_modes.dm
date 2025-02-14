@@ -205,7 +205,7 @@
 
 /datum/laser_weapon_mode/sword/apply_to_weapon(obj/item/gun/energy/modular_laser_rifle/applied_gun)
 	playsound(src, 'sound/items/unsheath.ogg', 25, TRUE)
-	applied_gun.force = 18
+	applied_gun.force = 3
 	applied_gun.sharpness = SHARP_EDGED
 	applied_gun.bare_wound_bonus = 10
 	applied_gun.disabled_for_other_reasons = TRUE

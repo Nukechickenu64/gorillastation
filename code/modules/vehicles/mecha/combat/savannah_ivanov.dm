@@ -25,7 +25,7 @@
 	max_integrity = 450 //really tanky, like damn
 	armor_type = /datum/armor/mecha_savannah_ivanov
 	max_temperature = 30000
-	force = 30
+	force = 50
 	destruction_sleep_duration = 40
 	exit_delay = 40
 	encumbrance_gap = 2.6

@@ -14,7 +14,7 @@
 	inhand_y_dimension = 64
 	flags_1 = CONDUCT_1
 	obj_flags = UNIQUE_RENAME
-	force = 20
+	force = 4
 	throwforce = 15
 	demolition_mod = 0.75 //but not metal
 	w_class = WEIGHT_CLASS_BULKY
@@ -38,7 +38,7 @@
 	inhand_y_dimension = 64
 	flags_1 = CONDUCT_1
 	obj_flags = UNIQUE_RENAME
-	force = 20
+	force = 4
 	throwforce = 15
 	demolition_mod = 0.75 //but not metal
 	w_class = WEIGHT_CLASS_BULKY
@@ -62,7 +62,7 @@
 	inhand_y_dimension = 64
 	flags_1 = CONDUCT_1
 	obj_flags = UNIQUE_RENAME
-	force = 12
+	force = 2
 	throwforce = 7
 	demolition_mod = 0.75 //but not metal
 	w_class = WEIGHT_CLASS_BULKY

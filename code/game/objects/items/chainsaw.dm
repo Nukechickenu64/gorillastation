@@ -8,7 +8,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/chainsaw_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/chainsaw_righthand.dmi'
 	flags_1 = CONDUCT_1
-	force = 13
+	force = 3
 	var/force_on = 24
 	w_class = WEIGHT_CLASS_HUGE
 	throwforce = 13

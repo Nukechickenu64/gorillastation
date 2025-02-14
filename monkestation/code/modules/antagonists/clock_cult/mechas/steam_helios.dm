@@ -11,7 +11,7 @@
 	max_integrity = 450
 	armor_type = /datum/armor/mecha_steam_helios
 	max_temperature = 30000
-	force = 40
+	force = 45
 	destruction_sleep_duration = 4 SECONDS
 	exit_delay = 4 SECONDS
 	wreckage = /obj/structure/mecha_wreckage/steam_helios
